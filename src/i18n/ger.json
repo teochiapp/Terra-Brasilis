@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "historia": "Unsere Geschichte",
+    "finca": "Die Finca",
+    "profesionales": "Für Fachleute",
+    "contacto": "Kontakt"
+  },
+  "inicio": {
+    "hero": {
+      "title": "Terra Brasilis",
+      "description": "Eine Finca mit Geschichte, Natur und Tradition.",
+      "cta": "Mehr erfahren"
+    },
+    "historia_preview": {
+      "title": "Unsere Geschichte",
+      "description": "Jahrzehnte der Arbeit und Leidenschaft auf dem Land.",
+      "cta": "Unsere Geschichte kennenlernen"
+    },
+    "finca_preview": {
+      "title": "Die Finca",
+      "description": "Ein einzigartiger Ort inmitten der Natur.",
+      "cta": "Die Finca erkunden"
+    },
+    "contact_cta": {
+      "title": "Sprechen wir?",
+      "description": "Wir stehen Ihnen für Ihre Fragen gerne zur Verfügung.",
+      "cta": "Kontaktieren Sie uns"
+    }
+  },
+  "historia": {
+    "hero": {
+      "title": "Unsere Geschichte",
+      "description": "Die Geschichte von Terra Brasilis und den Menschen dahinter."
+    }
+  },
+  "finca": {
+    "hero": {
+      "title": "Die Finca",
+      "description": "Ein einzigartiger Naturraum mit außergewöhnlichen Eigenschaften."
+    }
+  },
+  "profesionales": {
+    "hero": {
+      "title": "Für Fachleute",
+      "description": "Technische und detaillierte Informationen für Branchenexperten."
+    }
+  },
+  "contacto": {
+    "hero": {
+      "title": "Kontakt",
+      "description": "Nehmen Sie Kontakt mit uns auf."
+    },
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Nachricht senden"
+    }
+  },
+  "footer": {
+    "tagline": "Natur, Geschichte und Tradition.",
+    "copyright": "© 2025 Terra Brasilis. Alle Rechte vorbehalten.",
+    "nav_title": "Navigation"
+  },
+  "seo": {
+    "inicio": {
+      "title": "Terra Brasilis — Home",
+      "description": "Willkommen bei Terra Brasilis. Eine Finca mit Geschichte, Natur und Tradition."
+    },
+    "historia": {
+      "title": "Unsere Geschichte — Terra Brasilis",
+      "description": "Erfahren Sie die Geschichte hinter Terra Brasilis."
+    },
+    "finca": {
+      "title": "Die Finca — Terra Brasilis",
+      "description": "Entdecken Sie die einzigartigen Eigenschaften der Terra Brasilis Finca."
+    },
+    "profesionales": {
+      "title": "Für Fachleute — Terra Brasilis",
+      "description": "Technische Informationen für Fachleute über Terra Brasilis."
+    },
+    "contacto": {
+      "title": "Kontakt — Terra Brasilis",
+      "description": "Kontaktieren Sie das Team von Terra Brasilis."
+    }
+  }
+}

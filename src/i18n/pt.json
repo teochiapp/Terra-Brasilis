@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "inicio": "Início",
+    "historia": "Nossa História",
+    "finca": "A Fazenda",
+    "profesionales": "Para Profissionais",
+    "contacto": "Nosso Contato"
+  },
+  "inicio": {
+    "hero": {
+      "title": "Terra Brasilis",
+      "description": "Uma fazenda com história, natureza e tradição.",
+      "cta": "Descobrir mais"
+    },
+    "historia_preview": {
+      "title": "Nossa História",
+      "description": "Décadas de trabalho e paixão pela terra.",
+      "cta": "Conhecer nossa história"
+    },
+    "finca_preview": {
+      "title": "A Fazenda",
+      "description": "Um espaço único cercado pela natureza.",
+      "cta": "Explorar a fazenda"
+    },
+    "contact_cta": {
+      "title": "Conversamos?",
+      "description": "Estamos disponíveis para responder suas perguntas.",
+      "cta": "Fale conosco"
+    }
+  },
+  "historia": {
+    "hero": {
+      "title": "Nossa História",
+      "description": "A história da Terra Brasilis e as pessoas por trás dela."
+    }
+  },
+  "finca": {
+    "hero": {
+      "title": "A Fazenda",
+      "description": "Um espaço natural único com características excepcionais."
+    }
+  },
+  "profesionales": {
+    "hero": {
+      "title": "Para Profissionais",
+      "description": "Informações técnicas e detalhadas para profissionais do setor."
+    }
+  },
+  "contacto": {
+    "hero": {
+      "title": "Nosso Contato",
+      "description": "Entre em contato conosco."
+    },
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "submit": "Enviar mensagem"
+    }
+  },
+  "footer": {
+    "tagline": "Natureza, história e tradição.",
+    "copyright": "© 2025 Terra Brasilis. Todos os direitos reservados.",
+    "nav_title": "Navegação"
+  },
+  "seo": {
+    "inicio": {
+      "title": "Terra Brasilis — Início",
+      "description": "Bem-vindos à Terra Brasilis. Uma fazenda com história, natureza e tradição."
+    },
+    "historia": {
+      "title": "Nossa História — Terra Brasilis",
+      "description": "Descubra a história por trás da Terra Brasilis."
+    },
+    "finca": {
+      "title": "A Fazenda — Terra Brasilis",
+      "description": "Descubra as características únicas da Fazenda Terra Brasilis."
+    },
+    "profesionales": {
+      "title": "Para Profissionais — Terra Brasilis",
+      "description": "Informações técnicas para profissionais sobre a Terra Brasilis."
+    },
+    "contacto": {
+      "title": "Contato — Terra Brasilis",
+      "description": "Entre em contato com a equipe da Terra Brasilis."
+    }
+  }
+}

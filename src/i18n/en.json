@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "historia": "Our Story",
+    "finca": "The Farm",
+    "profesionales": "For Professionals",
+    "contacto": "Contact Us"
+  },
+  "inicio": {
+    "hero": {
+      "title": "Terra Brasilis",
+      "description": "A farm with history, nature, and tradition.",
+      "cta": "Discover more"
+    },
+    "historia_preview": {
+      "title": "Our Story",
+      "description": "Decades of work and passion on the land.",
+      "cta": "Learn our story"
+    },
+    "finca_preview": {
+      "title": "The Farm",
+      "description": "A unique space surrounded by nature.",
+      "cta": "Explore the farm"
+    },
+    "contact_cta": {
+      "title": "Let's talk?",
+      "description": "We are available to answer your questions.",
+      "cta": "Contact us"
+    }
+  },
+  "historia": {
+    "hero": {
+      "title": "Our Story",
+      "description": "The story of Terra Brasilis and the people behind it."
+    }
+  },
+  "finca": {
+    "hero": {
+      "title": "The Farm",
+      "description": "A unique natural space with exceptional characteristics."
+    }
+  },
+  "profesionales": {
+    "hero": {
+      "title": "For Professionals",
+      "description": "Technical and detailed information for industry professionals."
+    }
+  },
+  "contacto": {
+    "hero": {
+      "title": "Contact Us",
+      "description": "Get in touch with us."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "tagline": "Nature, history, and tradition.",
+    "copyright": "© 2025 Terra Brasilis. All rights reserved.",
+    "nav_title": "Navigation"
+  },
+  "seo": {
+    "inicio": {
+      "title": "Terra Brasilis — Home",
+      "description": "Welcome to Terra Brasilis. A farm with history, nature, and tradition."
+    },
+    "historia": {
+      "title": "Our Story — Terra Brasilis",
+      "description": "Discover the story behind Terra Brasilis."
+    },
+    "finca": {
+      "title": "The Farm — Terra Brasilis",
+      "description": "Discover the unique characteristics of Terra Brasilis Farm."
+    },
+    "profesionales": {
+      "title": "For Professionals — Terra Brasilis",
+      "description": "Technical information for professionals about Terra Brasilis."
+    },
+    "contacto": {
+      "title": "Contact — Terra Brasilis",
+      "description": "Get in touch with the Terra Brasilis team."
+    }
+  }
+}

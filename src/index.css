@@ -1,0 +1,2 @@
+/* Punto de entrada de estilos — importa globals que a su vez importa variables y typography */
+@import './styles/globals.css';

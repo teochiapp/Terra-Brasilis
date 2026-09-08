@@ -6,6 +6,12 @@
     "profesionales": "Für Fachleute",
     "contacto": "Kontakt"
   },
+  "breadcrumb": {
+    "historia": "Unsere Geschichte",
+    "finca": "Die Finca",
+    "profesionales": "Für Fachleute",
+    "contacto": "Kontakt"
+  },
   "inicio": {
     "hero": {
       "title": "Terra Brasilis",
@@ -42,8 +48,51 @@
   },
   "profesionales": {
     "hero": {
-      "title": "Für Fachleute",
-      "description": "Technische und detaillierte Informationen für Branchenexperten."
+      "title": "Für Profis",
+      "description": "Technische und detaillierte Informationen für Fachleute."
+    },
+    "about": {
+      "title": "Wir verbinden unseren Kaffee mit Menschen, die unsere Vision teilen",
+      "description": "Wir glauben an langfristig aufgebaute Beziehungen. Wir arbeiten mit Fachleuten zusammen, die unsere Leidenschaft für Qualität, Herkunft und Nachhaltigkeit teilen.",
+      "targets": [
+        "Röster",
+        "Händler",
+        "Cafés und gastronomische Projekte",
+        "Unternehmen, die Kaffee mit Herkunft und Persönlichkeit suchen"
+      ],
+      "cta": "KONTAKTIEREN SIE UNS"
+    },
+    "features": [
+      "VOLLSTÄNDIGE RÜCKVERFOLGBARKEIT",
+      "EXKLUSIVE SORTEN",
+      "EINZIGARTIGE SENSORISCHE PROFILE",
+      "VERANTWORTUNGSVOLLE UND KONSISTENTE LIEFERUNG",
+      "PERSÖNLICHER SERVICE"
+    ],
+    "how_we_work": {
+      "title": "WIE WIR ARBEITEN",
+      "steps": [
+        {
+          "number": "1",
+          "title": "WIR VERBINDEN",
+          "description": "Wir verstehen Ihre Bedürfnisse und Ihren Markt"
+        },
+        {
+          "number": "2",
+          "title": "WIR WÄHLEN AUS",
+          "description": "Wir wählen den idealen Kaffee für Ihr Profil"
+        },
+        {
+          "number": "3",
+          "title": "WIR LIEFERN",
+          "description": "Wir garantieren Qualität und Konsistenz"
+        },
+        {
+          "number": "4",
+          "title": "WIR WACHSEN GEMEINSAM",
+          "description": "Wir bauen langfristige Beziehungen auf"
+        }
+      ]
     }
   },
   "contacto": {
@@ -51,17 +100,44 @@
       "title": "Kontakt",
       "description": "Nehmen Sie Kontakt mit uns auf."
     },
+    "info": {
+      "farm_label": "Unsere Finca",
+      "address": "Sítio do Branco\nEstrada Municipal Lamartine Peçanha, 1825 · Km 2\nBoa Vista · Piracaia, São Paulo · Brasil\nCEP 12971-008",
+      "email_label": "E-Mail",
+      "email": "henrique@terrabrasilis.cafe",
+      "social_label": "Folgen Sie uns",
+      "social": "Terra Brasilis Café"
+    },
     "form": {
-      "name": "Name",
-      "email": "E-Mail",
-      "message": "Nachricht",
-      "submit": "Nachricht senden"
+      "category": "Kontakt",
+      "title": "Lassen Sie uns über Kaffee sprechen.",
+      "description": "Wenn Sie mehr über Terra Brasilis Café oder unsere Kaffees erfahren möchten oder eine Zusammenarbeit erkunden wollen, freuen wir uns von Ihnen zu hören.",
+      "name": "Vollständiger Name *",
+      "company": "Firma (Optional)",
+      "email": "E-Mail *",
+      "country": "Land *",
+      "help_label": "Wie können wir Ihnen helfen? *",
+      "help_options": {
+        "general": "Allgemeine Informationen",
+        "professionals": "Fachleute / Vertrieb",
+        "coffees": "Unsere Kaffees",
+        "other": "Sonstiges"
+      },
+      "message": "Nachricht *",
+      "placeholder": "Teilen Sie uns mit, wie wir Ihnen helfen können...",
+      "submit": "Nachricht senden *",
+      "required": "* Pflichtfelder"
     }
   },
   "footer": {
-    "tagline": "Natur, Geschichte und Tradition.",
-    "copyright": "© 2025 Terra Brasilis. Alle Rechte vorbehalten.",
-    "nav_title": "Navigation"
+    "tagline": "Dem Anbau und der Röstung der exklusivsten Sorten von Spezialitätenkaffee auf unserer Familienfarm in Minas Gerais, Brasilien, gewidmet.",
+    "motto": "Mit Leidenschaft angebaut, mit Präzision geröstet.",
+    "copyright": "© 2026 Terra Brasilis Specialty Coffee. Alle Rechte vorbehalten.",
+    "nav_title": "Navigation",
+    "info_title": "Information",
+    "contact_title": "Kontakt",
+    "legal": "Impressum",
+    "privacy": "Datenschutzrichtlinie"
   },
   "seo": {
     "inicio": {

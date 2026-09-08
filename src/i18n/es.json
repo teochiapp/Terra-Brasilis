@@ -6,6 +6,12 @@
     "profesionales": "Para Profesionales",
     "contacto": "Nuestro Contacto"
   },
+  "breadcrumb": {
+    "historia": "Historia",
+    "finca": "La Finca",
+    "profesionales": "Profesionales",
+    "contacto": "Contacto"
+  },
   "inicio": {
     "hero": {
       "title": "Terra Brasilis",
@@ -44,6 +50,49 @@
     "hero": {
       "title": "Para Profesionales",
       "description": "Información técnica y detallada para profesionales del sector."
+    },
+    "about": {
+      "title": "Conectamos nuestro café con quienes comparten nuestra visión",
+      "description": "Creemos en relaciones construidas a largo plazo. Trabajamos con profesionales que comparten nuestra pasión por la calidad, el origen y la sostenibilidad.",
+      "targets": [
+        "Tostadores",
+        "Distribuidores",
+        "Cafeterías y proyectos gastronómicos",
+        "Empresas que buscan café con origen y personalidad"
+      ],
+      "cta": "CONTACTANOS"
+    },
+    "features": [
+      "TRAZABILIDAD COMPLETA",
+      "VARIEDADES EXCLUSIVAS",
+      "PERFILES SENSORIALES ÚNICOS",
+      "SUMINISTRO RESPONSABLE Y CONSISTENTE",
+      "ATENCIÓN PERSONALIZADA"
+    ],
+    "how_we_work": {
+      "title": "CÓMO TRABAJAMOS",
+      "steps": [
+        {
+          "number": "1",
+          "title": "NOS CONECTAMOS",
+          "description": "Entendemos tus necesidades y tu mercado"
+        },
+        {
+          "number": "2",
+          "title": "SELECCIONAMOS",
+          "description": "Elegimos el café ideal para tu perfil"
+        },
+        {
+          "number": "3",
+          "title": "ENTREGAMOS",
+          "description": "Garantizamos calidad y consistencia"
+        },
+        {
+          "number": "4",
+          "title": "CRECEMOS JUNTOS",
+          "description": "Construimos relaciones duraderas"
+        }
+      ]
     }
   },
   "contacto": {
@@ -51,17 +100,44 @@
       "title": "Nuestro Contacto",
       "description": "Ponete en contacto con nosotros."
     },
+    "info": {
+      "farm_label": "Nuestra Finca",
+      "address": "Sítio do Branco\nEstrada Municipal Lamartine Peçanha, 1825 · Km 2\nBoa Vista · Piracaia, São Paulo · Brasil\nCEP 12971-008",
+      "email_label": "Email",
+      "email": "henrique@terrabrasilis.cafe",
+      "social_label": "Seguinos",
+      "social": "Terra Brasilis Café"
+    },
     "form": {
-      "name": "Nombre",
-      "email": "Email",
-      "message": "Mensaje",
-      "submit": "Enviar mensaje"
+      "category": "Contacto",
+      "title": "Hablemos de café.",
+      "description": "Si querés saber más sobre Terra Brasilis Café, nuestros cafés o explorar una colaboración, nos encantaría escucharte.",
+      "name": "Nombre Completo *",
+      "company": "Empresa (Opcional)",
+      "email": "Email *",
+      "country": "País *",
+      "help_label": "¿En qué podemos ayudarte? *",
+      "help_options": {
+        "general": "Información general",
+        "professionals": "Profesionales / Distribución",
+        "coffees": "Nuestros cafés",
+        "other": "Otro"
+      },
+      "message": "Mensaje *",
+      "placeholder": "Contanos cómo podemos ayudarte...",
+      "submit": "Enviar mensaje *",
+      "required": "* Campos obligatorios"
     }
   },
   "footer": {
-    "tagline": "Naturaleza, historia y tradición.",
-    "copyright": "© 2025 Terra Brasilis. Todos los derechos reservados.",
-    "nav_title": "Navegación"
+    "tagline": "Dedicados al cultivo y tueste de las variedades más exclusivas de café de especialidad en nuestra finca familiar en Minas Gerais, Brasil.",
+    "motto": "Cultivado con pasión, tostado con precisión.",
+    "copyright": "© 2026 Terra Brasilis Specialty Coffee. Todos los derechos reservados.",
+    "nav_title": "Navegación",
+    "info_title": "Información",
+    "contact_title": "Contacto",
+    "legal": "Aviso Legal",
+    "privacy": "Política de Privacidad"
   },
   "seo": {
     "inicio": {

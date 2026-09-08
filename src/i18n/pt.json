@@ -6,6 +6,12 @@
     "profesionales": "Para Profissionais",
     "contacto": "Nosso Contato"
   },
+  "breadcrumb": {
+    "historia": "Nossa História",
+    "finca": "A Fazenda",
+    "profesionales": "Profissionais",
+    "contacto": "Contato"
+  },
   "inicio": {
     "hero": {
       "title": "Terra Brasilis",
@@ -44,6 +50,49 @@
     "hero": {
       "title": "Para Profissionais",
       "description": "Informações técnicas e detalhadas para profissionais do setor."
+    },
+    "about": {
+      "title": "Conectamos nosso café com quem compartilha nossa visão",
+      "description": "Acreditamos em relacionamentos construídos a longo prazo. Trabalhamos com profissionais que compartilham nossa paixão por qualidade, origem e sustentabilidade.",
+      "targets": [
+        "Torrefadores",
+        "Distribuidores",
+        "Cafeterias e projetos gastronômicos",
+        "Empresas que buscam café com origem e personalidade"
+      ],
+      "cta": "FALE CONOSCO"
+    },
+    "features": [
+      "RASTREAMENTO COMPLETO",
+      "VARIEDADES EXCLUSIVAS",
+      "PERFIS SENSORIAIS ÚNICOS",
+      "FORNECIMENTO RESPONSÁVEL E CONSISTENTE",
+      "ATENDIMENTO PERSONALIZADO"
+    ],
+    "how_we_work": {
+      "title": "COMO TRABALHAMOS",
+      "steps": [
+        {
+          "number": "1",
+          "title": "CONECTAMOS",
+          "description": "Entendemos suas necessidades e seu mercado"
+        },
+        {
+          "number": "2",
+          "title": "SELECIONAMOS",
+          "description": "Escolhemos o café ideal para seu perfil"
+        },
+        {
+          "number": "3",
+          "title": "ENTREGAMOS",
+          "description": "Garantimos qualidade e consistência"
+        },
+        {
+          "number": "4",
+          "title": "CRESCEMOS JUNTOS",
+          "description": "Construímos relacionamentos duradouros"
+        }
+      ]
     }
   },
   "contacto": {
@@ -51,17 +100,44 @@
       "title": "Nosso Contato",
       "description": "Entre em contato conosco."
     },
+    "info": {
+      "farm_label": "Nossa Fazenda",
+      "address": "Sítio do Branco\nEstrada Municipal Lamartine Peçanha, 1825 · Km 2\nBoa Vista · Piracaia, São Paulo · Brasil\nCEP 12971-008",
+      "email_label": "Email",
+      "email": "henrique@terrabrasilis.cafe",
+      "social_label": "Siga-nos",
+      "social": "Terra Brasilis Café"
+    },
     "form": {
-      "name": "Nome",
-      "email": "Email",
-      "message": "Mensagem",
-      "submit": "Enviar mensagem"
+      "category": "Contato",
+      "title": "Vamos falar de café.",
+      "description": "Se você deseja saber mais sobre a Terra Brasilis Café, nossos cafés ou explorar uma colaboração, adoraríamos ouvir você.",
+      "name": "Nome Completo *",
+      "company": "Empresa (Opcional)",
+      "email": "Email *",
+      "country": "País *",
+      "help_label": "Como podemos ajudar você? *",
+      "help_options": {
+        "general": "Informações gerais",
+        "professionals": "Profissionais / Distribuição",
+        "coffees": "Nossos cafés",
+        "other": "Outro"
+      },
+      "message": "Mensagem *",
+      "placeholder": "Conte-nos como podemos ajudar...",
+      "submit": "Enviar mensagem *",
+      "required": "* Campos obrigatórios"
     }
   },
   "footer": {
-    "tagline": "Natureza, história e tradição.",
-    "copyright": "© 2025 Terra Brasilis. Todos os direitos reservados.",
-    "nav_title": "Navegação"
+    "tagline": "Dedicados ao cultivo e torrefação das variedades mais exclusivas de café especial em nossa fazenda familiar em Minas Gerais, Brasil.",
+    "motto": "Cultivado com paixão, torrado com precisão.",
+    "copyright": "© 2026 Terra Brasilis Specialty Coffee. Todos os direitos reservados.",
+    "nav_title": "Navegação",
+    "info_title": "Informação",
+    "contact_title": "Contato",
+    "legal": "Aviso Legal",
+    "privacy": "Política de Privacidade"
   },
   "seo": {
     "inicio": {

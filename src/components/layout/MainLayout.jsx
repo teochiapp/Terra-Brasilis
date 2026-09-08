@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import Header from './Header';
 import Footer from './Footer';
+import Breadcrumb from '../common/Breadcrumb';
 
 // ─── Styled components ────────────────────────────────────────────────────────
 
@@ -23,6 +24,7 @@ const Main = styled.main`
  *
  * Envuelve cada página con:
  *  - Header (fijo, global)
+ *  - Breadcrumb (banner global para páginas internas, excepto Home)
  *  - main (contenido de la página)
  *  - Footer (global)
  *
@@ -35,7 +37,10 @@ function MainLayout({ children }) {
   return (
     <LayoutWrapper>
       <Header />
-      <Main>{children}</Main>
+      <Main>
+        <Breadcrumb />
+        {children}
+      </Main>
       <Footer />
     </LayoutWrapper>
   );

@@ -3,14 +3,8 @@ import styled from 'styled-components';
 
 import { useTranslation } from '../../i18n/I18nContext';
 import Container from '../../components/common/Container';
-import SectionTitle from '../../components/common/SectionTitle';
 
 // ─── Estilos ─────────────────────────────────────────────────────────────────
-
-const PageHero = styled.section`
-  padding: var(--spacing-4xl) 0;
-  background-color: var(--color-primary);
-`;
 
 const ContentSection = styled.section`
   padding: var(--spacing-4xl) 0;
@@ -41,27 +35,14 @@ function Finca() {
   }, [t]);
 
   return (
-    <>
-      <PageHero id="finca-hero">
-        <Container>
-          <SectionTitle
-            eyebrow="Terra Brasilis"
-            title={t('finca.hero.title')}
-            description={t('finca.hero.description')}
-            light
-          />
-        </Container>
-      </PageHero>
-
-      <ContentSection id="finca-content">
-        <Container>
-          {/* Placeholder — contenido visual de Finca se implementará en etapa 2 */}
-          <PlaceholderBlock>
-            Secciones de La Finca — pendiente implementación visual (Etapa 2)
-          </PlaceholderBlock>
-        </Container>
-      </ContentSection>
-    </>
+    <ContentSection id="finca-content">
+      <Container>
+        {/* Placeholder — contenido visual de Finca se implementará en etapa 2 */}
+        <PlaceholderBlock>
+          Secciones de La Finca — pendiente implementación visual (Etapa 2)
+        </PlaceholderBlock>
+      </Container>
+    </ContentSection>
   );
 }
 

@@ -129,25 +129,15 @@ const NavItem = styled(NavLink)`
   transition: color var(--transition-fast), font-weight var(--transition-fast);
 
   &.active {
-    font-weight: 700;
+    font-weight: 600;
+    transition: 0.1s;
   }
 
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -6px;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background-color: #183029;
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform var(--transition-base);
-  }
+
 
   &.active::after,
   &:hover::after {
-    transform: scaleX(1);
+    transition: 0.1s;
   }
 
   &:hover {
@@ -420,7 +410,7 @@ function Header() {
         <NavbarContainer>
           {/* brand-logo a la izquierda */}
           <HeaderLeft>
-            <BrandLogo to="/" aria-label="Terra Brasilis - Inicio">
+            <BrandLogo to="/" aria-label="Terra Brasilis - Inicio" onClick={() => window.scrollTo(0, 0)}>
               <BrandLogoImg
                 src={process.env.PUBLIC_URL + '/logo.png'}
                 alt="Terra Brasilis"
@@ -433,7 +423,7 @@ function Header() {
           {/* Menú de navegación centrado horizontalmente */}
           <NavCenter aria-label="Navegación principal">
             {navLinks.map(({ to, label, end }) => (
-              <NavItem key={to} to={to} end={end}>
+              <NavItem key={to} to={to} end={end} onClick={() => window.scrollTo(0, 0)}>
                 {label}
               </NavItem>
             ))}
@@ -491,7 +481,10 @@ function Header() {
             key={to}
             to={to}
             end={end}
-            onClick={() => setMobileOpen(false)}
+            onClick={() => {
+              setMobileOpen(false);
+              window.scrollTo(0, 0);
+            }}
           >
             {label}
           </MobileNavItem>

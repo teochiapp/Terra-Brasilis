@@ -61,15 +61,15 @@ const YoutubeIcon = () => (
 const FooterWrapper = styled.footer`
   width: 100%;
   background: #183029;
-  padding: 0 80px 36px 80px;
+  padding: 48px 80px 56px 80px;
   box-sizing: border-box;
 
   @media (max-width: 1200px) {
-    padding: 0 40px 32px 40px;
+    padding: 40px 40px 48px 40px;
   }
 
   @media (max-width: 640px) {
-    padding: 0 20px 28px 20px;
+    padding: 32px 20px 40px 20px;
   }
 `;
 
@@ -77,6 +77,9 @@ const FooterInner = styled.div`
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 `;
 
 const FooterDivider = styled.div`
@@ -85,12 +88,11 @@ const FooterDivider = styled.div`
   background: rgba(255, 255, 255, 0.12549);
 `;
 
-const FooterTop = styled.div`
+const FooterMain = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 48px;
   gap: 48px;
 
   @media (max-width: 1024px) {
@@ -114,7 +116,7 @@ const FooterLogo = styled(Link)`
   align-items: center;
   text-decoration: none;
   width: 217px;
-  height: 123px;
+  height: auto;
   transition: opacity var(--transition-fast);
 
   &:hover {
@@ -124,7 +126,8 @@ const FooterLogo = styled(Link)`
 
 const FooterLogoImg = styled.img`
   width: 217px;
-  height: 123px;
+  height: auto;
+  max-height: 130px;
   object-fit: contain;
   display: block;
 `;
@@ -138,8 +141,19 @@ const FooterBrandDescription = styled.p`
   font-size: 14px;
   line-height: 160%;
   color: #ffffff;
-  opacity: 0.7;
+  opacity: 0.6;
   margin: 0;
+`;
+
+const CopyrightText = styled.p`
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.45;
+  margin: 16px 0 0 0;
 `;
 
 const FooterLinksContainer = styled.div`
@@ -150,8 +164,8 @@ const FooterLinksContainer = styled.div`
   flex-wrap: wrap;
 
   @media (max-width: 640px) {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 32px;
     width: 100%;
   }
@@ -165,7 +179,7 @@ const FooterCol = styled.div`
 `;
 
 const FooterColTitle = styled.h4`
-  font-family: 'Constantia', Georgia, serif;
+  font-family: 'Constantia', var(--font-heading), 'Times New Roman', Georgia, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -186,7 +200,8 @@ const FooterLink = styled(Link)`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 100%;
+  letter-spacing: 0;
   color: #ffffff;
   opacity: 0.8;
   text-decoration: none;
@@ -203,7 +218,8 @@ const FooterExternalLink = styled.a`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 100%;
+  letter-spacing: 0;
   color: #ffffff;
   opacity: 0.8;
   text-decoration: none;
@@ -220,7 +236,8 @@ const FooterText = styled.span`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 100%;
+  letter-spacing: 0;
   color: #ffffff;
   opacity: 0.8;
 `;
@@ -230,9 +247,11 @@ const FooterAddress = styled.address`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 140%;
+  letter-spacing: 0;
   color: #ffffff;
   opacity: 0.8;
+  white-space: pre-line;
 `;
 
 const SocialIcons = styled.div`
@@ -240,7 +259,7 @@ const SocialIcons = styled.div`
   flex-direction: row;
   align-items: center;
   gap: 16px;
-  margin-top: 20px;
+  margin: 0;
 `;
 
 const SocialButton = styled.a`
@@ -249,8 +268,8 @@ const SocialButton = styled.a`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   border: 1px solid rgba(255, 255, 255, 0.12549);
   border-radius: 18px;
   background: transparent;
@@ -261,33 +280,6 @@ const SocialButton = styled.a`
     background: rgba(185, 151, 91, 0.15);
     transform: translateY(-2px);
   }
-`;
-
-const FooterBottom = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 48px;
-  gap: 16px;
-
-  @media (max-width: 640px) {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    padding-top: 32px;
-  }
-`;
-
-const CopyrightText = styled.p`
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 16px;
-  color: #ffffff;
-  opacity: 0.5;
-  margin: 0;
 `;
 
 const MottoText = styled.p`
@@ -307,10 +299,10 @@ function Footer() {
   const { t } = useTranslation();
 
   const navLinks = [
-    { to: '/', label: t('nav.inicio') || 'Home' },
-    { to: '/historia', label: t('nav.historia') || 'Our Story' },
-    { to: '/finca', label: t('nav.finca') || 'The Farm' },
-    { to: '/profesionales', label: t('nav.profesionales') || 'For Professionals' },
+    { to: '/', label: t('nav.inicio') || 'Inicio' },
+    { to: '/historia', label: t('nav.historia') || 'Nuestra Historia' },
+    { to: '/finca', label: t('nav.finca') || 'La Finca' },
+    { to: '/profesionales', label: t('nav.profesionales') || 'Para Profesionales' },
   ];
 
   return (
@@ -319,10 +311,10 @@ function Footer() {
         {/* Línea divisoria superior */}
         <FooterDivider />
 
-        <FooterTop>
-          {/* Columna Marca */}
+        <FooterMain>
+          {/* Columna Marca (Izquierda) */}
           <FooterBrand>
-            <FooterLogo to="/" aria-label="Terra Brasilis - Inicio">
+            <FooterLogo to="/" aria-label="Terra Brasilis - Inicio" onClick={() => window.scrollTo(0, 0)}>
               <FooterLogoImg
                 src={process.env.PUBLIC_URL + '/logo.png'}
                 alt="Terra Brasilis"
@@ -331,19 +323,21 @@ function Footer() {
               />
             </FooterLogo>
             <FooterBrandDescription>
-              {t('footer.tagline') ||
-                'Dedicated to cultivating and roasting the most exclusive varieties of specialty coffee on our family farm in Minas Gerais, Brazil.'}
+              {t('footer.tagline')}
             </FooterBrandDescription>
+            <CopyrightText>
+              {t('footer.copyright')}
+            </CopyrightText>
           </FooterBrand>
 
-          {/* Contenedor de enlaces y contacto */}
+          {/* Contenedor de enlaces y contacto (Derecha) */}
           <FooterLinksContainer>
             {/* Columna 1: Navigation */}
             <FooterCol>
               <FooterColTitle>{t('footer.nav_title') || 'Navigation'}</FooterColTitle>
               <FooterNavItems>
                 {navLinks.map(({ to, label }) => (
-                  <FooterLink key={to} to={to}>
+                  <FooterLink key={to} to={to} onClick={() => window.scrollTo(0, 0)}>
                     {label}
                   </FooterLink>
                 ))}
@@ -354,31 +348,28 @@ function Footer() {
             <FooterCol>
               <FooterColTitle>{t('footer.info_title') || 'Information'}</FooterColTitle>
               <FooterNavItems>
-                <FooterLink to="/aviso-legal">
-                  {t('footer.legal') || 'Legal Notice'}
+                <FooterLink to="/aviso-legal" onClick={() => window.scrollTo(0, 0)}>
+                  {t('footer.legal') || 'Impressum'}
                 </FooterLink>
-                <FooterLink to="/privacidad">
-                  {t('footer.privacy') || 'Privacy Policy'}
+                <FooterLink to="/privacidad" onClick={() => window.scrollTo(0, 0)}>
+                  {t('footer.privacy') || 'Datenschutzrichtlinie'}
                 </FooterLink>
               </FooterNavItems>
             </FooterCol>
 
             {/* Columna 3: Contact */}
             <FooterCol>
-              <FooterColTitle>{t('footer.contact_title') || 'Contact'}</FooterColTitle>
+              <FooterColTitle>{t('footer.contact_title') || 'Kontakt'}</FooterColTitle>
               <FooterNavItems>
                 <FooterText>Terra Brasilis Café</FooterText>
                 <FooterExternalLink href="mailto:henrique@terrabrasilis.cafe">
                   henrique@terrabrasilis.cafe
                 </FooterExternalLink>
                 <FooterAddress>
-                  Sítio do Branco<br />
-                  Estrada Municipal Lamartine Peçanha, 1825 · Km 2<br />
-                  Boa Vista · Piracaia, São Paulo · Brasil<br />
-                  CEP 12971-008
+                  {`Sítio do Branco\nEstrada Municipal Lamartine Peçanha, 1825 · Km 2\nBoa Vista · Piracaia, São Paulo · Brasil\nCEP 12971-008`}
                 </FooterAddress>
 
-                {/* Íconos sociales circulares según Figma */}
+                {/* Íconos sociales circulares */}
                 <SocialIcons aria-label="Redes sociales">
                   <SocialButton
                     href="https://instagram.com"
@@ -405,25 +396,17 @@ function Footer() {
                     <YoutubeIcon />
                   </SocialButton>
                 </SocialIcons>
+
+                <MottoText>
+                  {t('footer.motto')}
+                </MottoText>
               </FooterNavItems>
             </FooterCol>
           </FooterLinksContainer>
-        </FooterTop>
-
-        {/* Barra inferior de copyright y motto */}
-        <FooterBottom>
-          <CopyrightText>
-            {t('footer.copyright') ||
-              '© 2026 Terra Brasilis Specialty Coffee. All rights reserved.'}
-          </CopyrightText>
-          <MottoText>
-            {t('footer.motto') || 'Grown with passion, roasted with precision.'}
-          </MottoText>
-        </FooterBottom>
+        </FooterMain>
       </FooterInner>
     </FooterWrapper>
   );
 }
 
 export default Footer;
-

@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 import MainLayout from './components/layout/MainLayout';
+import ScrollToTop from './components/common/ScrollToTop';
 import Inicio from './pages/inicio/Inicio';
 import Historia from './pages/historia/Historia';
 import Finca from './pages/finca/Finca';
@@ -10,6 +11,7 @@ import Contacto from './pages/contacto/Contacto';
 function App() {
   return (
     <MainLayout>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/historia" element={<Historia />} />

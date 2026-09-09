@@ -4,7 +4,7 @@
     "historia": "Nuestra Historia",
     "finca": "La Finca",
     "profesionales": "Para Profesionales",
-    "contacto": "Nuestro Contacto"
+    "contacto": "Contacto"
   },
   "breadcrumb": {
     "historia": "Historia",
@@ -28,20 +28,20 @@
       "description": "Colecciones seleccionadas a mano, procesadas con técnicas de vanguardia para paladares exigentes.",
       "card1": {
         "title": "DESDE EL ORIGEN",
-        "description": "Cada café comienza en nuestra tierra, donde el cuidado y la dedicación acompañan cada paso.",
+        "description": "Cada café comienza en nuestra tierra, donde el cuidado y la dedicación acompañan cada etapa.",
         "cta": "DESCUBRIR NUESTROS CAFÉS"
       },
       "card2": {
         "title": "ARARA",
-        "description": "Equilibrio y carácter. Notas de chocolate, caramelo y frutos secos con un cuerpo sedoso y dulzura persistente.",
+        "description": "Equilibrio y carácter. Notas de chocolate, caramelo y frutos secos con cuerpo sedoso y excelente persistencia.",
         "cta": "DESCUBRIR NUESTROS CAFÉS"
       }
     },
     "historia_section": {
-      "title": "MÁS QUE CAFÉ, CULTIVAMOS UNA HISTORIA",
-      "description": "Terra Brasilis Café nació del deseo de recuperar la esencia del auténtico café brasileño. Nuestro proyecto es tradición, innovación y respeto por la artesanía para crear cafés de origen con personalidad propia.",
+      "title": "Más que café, cultivamos una historia",
+      "description": "Terra Brasilis Café nace del deseo de recuperar la esencia del auténtico café brasileño. Nuestro proyecto une tradición, innovación y respeto por la naturaleza para crear cafés de origen con personalidad propia.",
       "quote_line1": "No buscamos producir grandes cantidades.",
-      "quote_line2": "Buscamos producir cafés que perduren en la memoria.",
+      "quote_line2": "Buscamos producir cafés que permanezcan en la memoria.",
       "cta": "CONOCER NUESTRA HISTORIA"
     },
     "from_origin_to_bean": "DEL ORIGEN AL GRANO",
@@ -81,10 +81,10 @@
     },
     "intro": {
       "subtitle": "EL NACIMIENTO DE UNA PASIÓN",
-      "title": "Terra Brasilis Café es el resultado de una historia que comenzó mucho antes de nuestra primera cosecha. Nació de un profundo respeto por la tierra, por el proceso y por las personas que dedican su vida a cultivar un café excepcional.",
-      "p1": "Nacimos de una profunda conexión con la tierra, de generaciones que entendieron que el mejor café no solo se cultiva — se cuida con paciencia, conocimiento y amor.",
-      "p2": "Hoy, nos mantenemos fieles a esa visión con la determinación de ofrecer cafés excepcionales que llevan el alma de su origen en cada taza.",
-      "cta": "VISITAR LA FINCA"
+      "title": "Terra Brasilis Café es el resultado de una historia que comenzó mucho antes de nuestra primera cosecha.",
+      "p1": "Nacimos de la conexión profunda con la tierra, de generaciones que entendieron que el buen café no se improvisa: se cultiva con paciencia, se cuida con amor y se honra con cada decisión.",
+      "p2": "Hoy, seguimos fieles a esa visión con la determinación de ofrecer cafés excepcionales que transmitan la esencia de Brasil al mundo. Nos negamos a participar en el mercado masivo.",
+      "cta": "CONOCER LA FINCA"
     },
     "stats": {
       "tradition": "AÑOS DE TRADICIÓN",
@@ -100,7 +100,7 @@
       },
       "respect": {
         "title": "Respeto",
-        "desc": "Respetamos la tierra, a las personas y el proceso. Son la base de todo lo que hacemos."
+        "desc": "Respetamos la tierra, las personas y el proceso. Son la base de todo lo que hacemos."
       },
       "excellence": {
         "title": "Excelencia",
@@ -119,9 +119,9 @@
     },
     "intro": {
       "subtitle": "ENTRE MONTAÑAS, TIERRA Y CAFÉ",
-      "title": "Cultivamos café en las montañas de Brasil, donde la naturaleza y el trabajo humano se unen para crear algo excepcional.",
-      "p1": "Nuestra finca está ubicada en una región privilegiada por su clima, altitud y biodiversidad — condiciones ideales para cultivar café de especialidad.",
-      "p2": "Aquí, los ritmos de la naturaleza y el trabajo humano conviven en equilibrio, dando vida a cafés que llevan la identidad de su terruño."
+      "title": "Cultivamos café en las montañas de Brasil, donde la naturaleza y el trabajo humano encuentran su propio equilibrio.",
+      "p1": "Nuestra finca está ubicada en una región privilegiada por su clima, altitud y biodiversidad. Cada rincón ha sido elegido para cultivar un café con identidad propia.",
+      "p2": "Aquí, los ritmos de la naturaleza y el trabajo humano conviven en equilibrio, dando forma a cada cosecha y a una experiencia que comienza mucho antes de llegar a la taza."
     },
     "stats": {
       "altitude": {
@@ -141,7 +141,7 @@
         "value": "Protección y biodiversidad"
       }
     },
-    "quote": "“La naturaleza no se apresura, y sin embargo, todo se logra.”"
+    "quote": "\"La naturaleza no tiene prisa, y por eso, todo se cumple.\""
   },
   "profesionales": {
     "hero": {
@@ -150,7 +150,7 @@
     },
     "about": {
       "title": "Conectamos nuestro café con quienes comparten nuestra visión",
-      "description": "Creemos en relaciones construidas a largo plazo. Trabajamos con profesionales que comparten nuestra pasión por la calidad, el origen y la sostenibilidad.",
+      "description": "Creemos en relaciones construidas a largo plazo. Trabajamos con profesionales que valoran el origen, la calidad y la historia detrás de cada café, ofreciendo un producto con identidad, trazabilidad y un suministro cuidado desde nuestra finca en Brasil.",
       "targets": [
         "Tostadores",
         "Distribuidores",
@@ -187,7 +187,7 @@
         {
           "number": "4",
           "title": "CRECEMOS JUNTOS",
-          "description": "Construimos relaciones duraderas"
+          "description": "Construimos relaciones a largo plazo"
         }
       ]
     }
@@ -208,7 +208,7 @@
     "form": {
       "category": "Contacto",
       "title": "Hablemos de café.",
-      "description": "Si querés saber más sobre Terra Brasilis Café, nuestros cafés o explorar una colaboración, nos encantaría escucharte.",
+      "description": "Si quieres conocer más sobre Terra Brasilis Café, nuestros cafés o explorar una colaboración profesional, estaremos encantados de escucharte.",
       "name": "Nombre Completo *",
       "company": "Empresa (Opcional)",
       "email": "Email *",
@@ -223,11 +223,16 @@
       "message": "Mensaje *",
       "placeholder": "Contanos cómo podemos ayudarte...",
       "submit": "Enviar mensaje *",
-      "required": "* Campos obligatorios"
+      "required": "* Campos obligatorios",
+      "modal_success_title": "¡Mensaje Enviado!",
+      "modal_success_desc": "Muchas gracias por contactarte con Terra Brasilis. Hemos recibido tu mensaje y te responderemos a la brevedad.",
+      "modal_error_title": "Error al Enviar",
+      "modal_error_desc": "Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente.",
+      "modal_close": "Aceptar"
     }
   },
   "footer": {
-    "tagline": "Dedicados al cultivo y tueste de las variedades más exclusivas de café de especialidad en nuestra finca familiar en Minas Gerais, Brasil.",
+    "tagline": "Dedicados a cultivar y tostar las variedades más exclusivas de café especial en nuestra finca familiar en Minas Gerais, Brasil.",
     "motto": "Cultivado con pasión, tostado con precisión.",
     "copyright": "© 2026 Terra Brasilis Specialty Coffee. Todos los derechos reservados.",
     "nav_title": "Navegación",
@@ -257,5 +262,21 @@
       "title": "Contacto — Terra Brasilis",
       "description": "Ponete en contacto con el equipo de Terra Brasilis."
     }
+  },
+  "cookie_banner": {
+    "title": "Valoramos tu privacidad",
+    "description": "Utilizamos cookies propias y de terceros para asegurar el funcionamiento del sitio web, analizar nuestro tráfico y personalizar tu experiencia. Puedes aceptar todas las cookies, rechazarlas o configurar tus preferencias.",
+    "btn_config": "Configurar",
+    "btn_reject": "Rechazar",
+    "btn_accept": "Aceptar todas",
+    "modal_title": "Configuración de Cookies",
+    "modal_desc": "Cuando visitas un sitio web, este puede almacenar o recuperar información en tu navegador, principalmente en forma de cookies. Esta información podría ser sobre ti, tus preferencias o tu dispositivo.",
+    "necessary_title": "Estrictamente necesarias",
+    "necessary_desc": "Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar en nuestros sistemas. Por lo general, solo se configuran en respuesta a acciones que realizas, como establecer tus preferencias de privacidad o iniciar sesión.",
+    "analytics_title": "Cookies de Análisis",
+    "analytics_desc": "Nos permiten contar las visitas y fuentes de tráfico para poder medir y mejorar el rendimiento de nuestro sitio. Nos ayudan a saber qué páginas son las más o menos populares.",
+    "marketing_title": "Cookies de Marketing",
+    "marketing_desc": "Pueden ser establecidas a través de nuestro sitio por nuestros socios publicitarios. Pueden ser utilizadas por esas empresas para crear un perfil de tus intereses y mostrarte anuncios relevantes en otros sitios.",
+    "btn_save": "Guardar Preferencias"
   }
 }

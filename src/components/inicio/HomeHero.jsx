@@ -67,7 +67,7 @@ const HeroTitle = styled.h1`
   }
 
   @media (max-width: 640px) {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 120%;
   }
 `;

@@ -34,32 +34,47 @@ const StatItem = styled.div`
   padding: 60px 40px;
   gap: 8px;
   flex: 1;
-  border-right: 1px solid rgba(255, 255, 255, 0.08);
-
-  &:last-child {
-    border-right: none;
-  }
+  border-right: ${({ $isLast }) => ($isLast ? 'none' : '1px solid rgba(255, 255, 255, 0.082)')};
 
   @media (max-width: 768px) {
     flex: 0 0 50%;
-    padding: 40px 20px;
+    padding: 32px 20px;
+    border: none !important;
+    position: relative;
     
-    &:nth-child(2) {
-      border-right: none;
-    }
-    &:nth-child(1), &:nth-child(2) {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    }
+    ${({ $index }) => ($index === 0 || $index === 1) && `
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 1px;
+        background: #B9975B;
+        opacity: 0.5;
+      }
+    `}
   }
 
   @media (max-width: 480px) {
     flex: 0 0 100%;
-    border-right: none !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 40px 20px;
 
-    &:last-child {
-      border-bottom: none;
-    }
+    ${({ $isLast }) => !$isLast && `
+      &::after {
+        display: block;
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 1px;
+        background: #B9975B;
+        opacity: 0.5;
+      }
+    `}
   }
 `;
 
@@ -79,7 +94,7 @@ const StatNumber = styled.span`
 `;
 
 const StatLabel = styled.span`
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 11px;
@@ -125,7 +140,7 @@ function HistoryStats() {
       <StatsContainer>
         <Fade cascade damping={0.15} direction="up" triggerOnce duration={800} style={{ display: 'contents' }}>
           {stats.map((stat, index) => (
-            <StatItem key={index}>
+            <StatItem key={index} $index={index} $isLast={index === stats.length - 1}>
               <StatNumber>{stat.number}</StatNumber>
               <StatLabel>{stat.label}</StatLabel>
             </StatItem>

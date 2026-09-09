@@ -14,14 +14,15 @@ const ContentSection = styled.section`
 `;
 
 const ContactGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column-reverse;
   gap: 60px;
-  align-items: start;
 
   @media (min-width: 1024px) {
+    display: grid;
     grid-template-columns: 380px 1fr;
     gap: 80px;
+    align-items: start;
   }
 `;
 

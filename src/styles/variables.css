@@ -55,3 +55,9 @@
   /* Header */
   --header-height: 111px;
 }
+
+@media (max-width: 640px) {
+  :root {
+    --header-height: 90px;
+  }
+}

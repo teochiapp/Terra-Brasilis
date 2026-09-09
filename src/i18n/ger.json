@@ -1,23 +1,23 @@
 {
   "nav": {
-    "inicio": "Home",
+    "inicio": "Startseite",
     "historia": "Unsere Geschichte",
     "finca": "Die Finca",
-    "profesionales": "Für Fachleute",
+    "profesionales": "Für Profis",
     "contacto": "Kontakt"
   },
   "breadcrumb": {
     "historia": "Unsere Geschichte",
     "finca": "Die Finca",
-    "profesionales": "Für Fachleute",
+    "profesionales": "Für Profis",
     "contacto": "Kontakt"
   },
   "inicio": {
     "hero": {
-      "title": "VOM HERZEN BRASILIENS <br /> ZU DEN FEINSTEN TASSEN DER WELT",
+      "title": "AUS DEM HERZEN BRASILIENS <br /> IN DIE BESTEN TASSEN DER WELT",
       "subtitle": "Wir bauen Kaffee vom Ursprung an, <br /> mit Respekt für Land, Zeit und Menschen",
       "cta_discover": "TERRA BRASILIS ENTDECKEN",
-      "cta_farm": "DIE FARM BESUCHEN"
+      "cta_farm": "DIE FINCA BESUCHEN"
     },
     "preview_section": {
       "title": "Erfahren Sie mehr über uns",
@@ -33,15 +33,15 @@
       },
       "card2": {
         "title": "ARARA",
-        "description": "Balance und Charakter. Noten von Schokolade, Karamel und Nüssen mit seidenweichem Körper und anhaltender Süße.",
+        "description": "Balance und Charakter. Noten von Schokolade, Karamell und Nüssen mit seidigem Körper und anhaltender Süße.",
         "cta": "UNSERE KAFFEES ENTDECKEN"
       }
     },
     "historia_section": {
       "title": "MEHR ALS KAFFEE, WIR KULTIVIEREN EINE GESCHICHTE",
-      "description": "Terra Brasilis Café entstand aus dem Wunsch, die Essenz des authentischen brasilianischen Kaffees wiederzuentdecken. Unser Projekt steht für Tradition, Innovation und Respekt vor dem Handwerk.",
+      "description": "Terra Brasilis Café entstand aus dem Wunsch, die Essenz des authentischen brasilianischen Kaffees wiederzugewinnen. Unser Projekt ist Tradition, Innovation und Respekt vor dem Handwerk, um Herkunftskaffees mit eigener Persönlichkeit zu schaffen.",
       "quote_line1": "Wir streben nicht nach großen Mengen.",
-      "quote_line2": "Wir streben danach, Kaffees zu kreieren, die in Erinnerung bleiben.",
+      "quote_line2": "Wir streben nach Kaffees, die in Erinnerung bleiben.",
       "cta": "UNSERE GESCHICHTE KENNENLERNEN"
     },
     "from_origin_to_bean": "VOM URSPRUNG ZUR BOHNE",
@@ -80,20 +80,20 @@
       "description": "Die Geschichte von Terra Brasilis und den Menschen dahinter."
     },
     "intro": {
-      "subtitle": "THE BIRTH OF A PASSION",
-      "title": "Terra Brasilis Café is the result of a story that began long before our first harvest. It was born from a deep respect for the land, for the process, and for the people who dedicate their lives to growing exceptional coffee.",
-      "p1": "We were born from a deep connection with the land, from generations who understood that the best coffee is not just grown — it is nurtured with patience, knowledge, and love.",
-      "p2": "Today, we remain faithful to that vision with the determination to offer exceptional coffees that carry the soul of their origin in every cup.",
-      "cta": "VISIT THE FARM"
+      "subtitle": "DIE GEBURT EINER LEIDENSCHAFT",
+      "title": "Terra Brasilis Café ist das Ergebnis einer Geschichte, die lange vor unserer ersten Ernte begann. Es entstand aus tiefem Respekt vor dem Land, dem Prozess und den Menschen, die ihr Leben dem Anbau außergewöhnlichen Kaffees widmen.",
+      "p1": "Wir entstanden aus einer tiefen Verbindung mit dem Land, aus Generationen, die verstanden, dass der beste Kaffee nicht nur angebaut wird — er wird mit Geduld, Wissen und Liebe gepflegt.",
+      "p2": "Heute bleiben wir dieser Vision treu, mit der Entschlossenheit, außergewöhnliche Kaffees anzubieten, die die Essenz Brasiliens in die Welt tragen. Wir lehnen es ab, am Massenmarkt teilzunehmen.",
+      "cta": "DIE FINCA BESUCHEN"
     },
     "stats": {
-      "tradition": "YEARS OF TRADITION",
-      "varieties": "EXCLUSIVE VARIETIES",
-      "origin": "ORIGIN COFFEE",
-      "mission": "CLEAR MISSION"
+      "tradition": "JAHRE TRADITION",
+      "varieties": "EXKLUSIVE SORTEN",
+      "origin": "HERKUNFTSKAFFEE",
+      "mission": "KLARE MISSION"
     },
     "values": {
-      "title": "OUR VALUES",
+      "title": "UNSERE WERTE",
       "auth": {
         "title": "Authenticity",
         "desc": "We cultivate the origin and our essence. Every cup reflects who we are and where we come from."
@@ -118,30 +118,30 @@
       "description": "Ein einzigartiger Naturraum mit außergewöhnlichen Eigenschaften."
     },
     "intro": {
-      "subtitle": "AMONG MOUNTAINS, LAND, AND COFFEE",
-      "title": "We grow coffee in the mountains of Brazil, where nature and human work come together to create something exceptional.",
-      "p1": "Our farm is located in a privileged region for its climate, altitude, and biodiversity — ideal conditions for cultivating specialty coffee.",
-      "p2": "Here, the rhythms of nature and human work coexist in balance, giving life to coffees that carry the identity of their terroir."
+      "subtitle": "ZWISCHEN BERGEN, ERDE UND KAFFEE",
+      "title": "Wir bauen Kaffee in den Bergen Brasiliens an, wo Natur und menschliche Arbeit zusammenkommen, um etwas Außergewöhnliches zu schaffen.",
+      "p1": "Unsere Finca liegt in einer privilegierten Region mit idealem Klima, Höhenlage und Biodiversität — perfekte Bedingungen für den Anbau von Spezialitätenkaffee.",
+      "p2": "Hier leben die Rhythmen der Natur und der menschlichen Arbeit im Gleichgewicht und bringen Kaffees hervor, die die Identität ihres Terroirs tragen."
     },
     "stats": {
       "altitude": {
-        "title": "ALTITUDE",
+        "title": "HÖHENLAGE",
         "value": "900-1,300 MTS"
       },
       "climate": {
-        "title": "CLIMATE",
-        "value": "Mountain tropical"
+        "title": "KLIMA",
+        "value": "Tropisches Bergklima"
       },
       "soil": {
-        "title": "SOIL",
-        "value": "Rich in minerals"
+        "title": "BODEN",
+        "value": "Reich an Mineralien"
       },
       "shade": {
-        "title": "NATURAL SHADE",
-        "value": "Protection and biodiversity"
+        "title": "NATÜRLICHER SCHATTEN",
+        "value": "Schutz und Biodiversität"
       }
     },
-    "quote": "“Nature is in no hurry, and yet, everything is accomplished.”"
+    "quote": "\"Die Natur hat keine Eile, und doch wird alles erfüllt.\""
   },
   "profesionales": {
     "hero": {
@@ -163,7 +163,7 @@
       "VOLLSTÄNDIGE RÜCKVERFOLGBARKEIT",
       "EXKLUSIVE SORTEN",
       "EINZIGARTIGE SENSORISCHE PROFILE",
-      "VERANTWORTUNGSVOLLE UND KONSISTENTE LIEFERUNG",
+      "VERANTWORTUNGSVOLLE UND KONSTANTE LIEFERUNG",
       "PERSÖNLICHER SERVICE"
     ],
     "how_we_work": {
@@ -207,23 +207,28 @@
     },
     "form": {
       "category": "Kontakt",
-      "title": "Lassen Sie uns über Kaffee sprechen.",
-      "description": "Wenn Sie mehr über Terra Brasilis Café oder unsere Kaffees erfahren möchten oder eine Zusammenarbeit erkunden wollen, freuen wir uns von Ihnen zu hören.",
+      "title": "Sprechen wir über Kaffee.",
+      "description": "Wenn Sie mehr über Terra Brasilis Café, unsere Kaffees erfahren oder eine Zusammenarbeit erkunden möchten, würden wir uns freuen, von Ihnen zu hören.",
       "name": "Vollständiger Name *",
-      "company": "Firma (Optional)",
-      "email": "E-Mail *",
+      "company": "Unternehmen (Optional)",
+      "email": "Email *",
       "country": "Land *",
       "help_label": "Wie können wir Ihnen helfen? *",
       "help_options": {
         "general": "Allgemeine Informationen",
-        "professionals": "Fachleute / Vertrieb",
+        "professionals": "Profis / Distribution",
         "coffees": "Unsere Kaffees",
         "other": "Sonstiges"
       },
       "message": "Nachricht *",
-      "placeholder": "Teilen Sie uns mit, wie wir Ihnen helfen können...",
-      "submit": "Nachricht senden *",
-      "required": "* Pflichtfelder"
+      "placeholder": "Erzählen Sie uns, wie wir Ihnen helfen können...",
+      "submit": "Nachricht senden →",
+      "required": "* Pflichtfelder",
+      "modal_success_title": "Nachricht Gesendet!",
+      "modal_success_desc": "Vielen Dank für Ihre Kontaktaufnahme mit Terra Brasilis. Wir haben Ihre Nachricht erhalten und werden uns in Kürze bei Ihnen melden.",
+      "modal_error_title": "Fehler beim Senden",
+      "modal_error_desc": "Beim Senden Ihrer Nachricht ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+      "modal_close": "Akzeptieren"
     }
   },
   "footer": {
@@ -257,5 +262,21 @@
       "title": "Kontakt — Terra Brasilis",
       "description": "Kontaktieren Sie das Team von Terra Brasilis."
     }
+  },
+  "cookie_banner": {
+    "title": "Wir schätzen Ihre Privatsphäre",
+    "description": "Wir verwenden eigene und Cookies von Drittanbietern, um sicherzustellen, dass die Website ordnungsgemäß funktioniert, unseren Datenverkehr zu analysieren und Ihr Erlebnis zu personalisieren. Sie können alle Cookies akzeptieren, ablehnen oder Ihre Einstellungen konfigurieren.",
+    "btn_config": "Konfigurieren",
+    "btn_reject": "Ablehnen",
+    "btn_accept": "Alle akzeptieren",
+    "modal_title": "Cookie-Einstellungen",
+    "modal_desc": "Wenn Sie eine Website besuchen, kann diese Informationen über Ihren Browser abrufen oder speichern. Dies geschieht meist in Form von Cookies. Hierbei kann es sich um Informationen über Sie, Ihre Einstellungen oder Ihr Gerät handeln.",
+    "necessary_title": "Unbedingt erforderlich",
+    "necessary_desc": "Diese Cookies sind zur Funktion der Website erforderlich und können in Ihren Systemen nicht deaktiviert werden. In der Regel werden diese Cookies nur als Reaktion auf von Ihnen getätigte Aktionen gesetzt, die einer Dienstanforderung entsprechen, wie etwa dem Festlegen Ihrer Datenschutzeinstellungen, dem Anmelden oder dem Ausfüllen von Formularen.",
+    "analytics_title": "Analyse-Cookies",
+    "analytics_desc": "Diese Cookies ermöglichen es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie unterstützen uns bei der Beantwortung der Fragen, welche Seiten am beliebtesten sind.",
+    "marketing_title": "Marketing-Cookies",
+    "marketing_desc": "Diese Cookies können über unsere Website von unseren Werbepartnern gesetzt werden. Sie können von diesen Unternehmen verwendet werden, um ein Profil Ihrer Interessen zu erstellen und Ihnen relevante Anzeigen auf anderen Websites zu zeigen.",
+    "btn_save": "Einstellungen speichern"
   }
 }

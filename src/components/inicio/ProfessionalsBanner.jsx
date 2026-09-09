@@ -48,6 +48,11 @@ const BannerTitle = styled.h2`
     0px 4px 10px rgba(0, 0, 0, 0.6),
     0px 4px 4px rgba(0, 0, 0, 0.25);
   max-width: 800px;
+
+  @media (max-width: 640px) {
+    font-size: 30px;
+    line-height: 38px;
+  }
 `;
 
 const CtaButton = styled(Link)`

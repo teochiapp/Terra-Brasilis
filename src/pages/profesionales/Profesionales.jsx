@@ -204,8 +204,9 @@ const FeaturesStrip = styled.section`
   flex-wrap: wrap;
 
   @media (max-width: 640px) {
-    padding: 20px;
-    gap: 20px;
+    padding: 32px 20px;
+    gap: 16px;
+    flex-direction: column;
   }
 `;
 
@@ -229,7 +230,11 @@ const DiamondSeparator = styled.span`
   flex-shrink: 0;
 
   @media (max-width: 640px) {
-    display: none;
+    display: block;
+    width: 40px;
+    height: 1px;
+    transform: none;
+    background: rgba(184, 150, 88, 0.5);
   }
 `;
 

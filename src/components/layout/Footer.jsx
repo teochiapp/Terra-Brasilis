@@ -110,6 +110,10 @@ const FooterBrand = styled.div`
   max-width: 100%;
   flex-shrink: 0;
   height: 100%;
+
+  @media (max-width: 768px) {
+     gap: 10px;
+  }
 `;
 
 const FooterLogo = styled(Link)`
@@ -156,7 +160,10 @@ const CopyrightText = styled.p`
   opacity: 0.5;
   margin: auto 0 0 0;
   padding-top: 48px;
-  white-space: nowrap;
+
+  @media (max-width: 768px) {
+    padding-top: 15px;
+  }
 `;
 
 const FooterLinksContainer = styled.div`

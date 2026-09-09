@@ -85,7 +85,7 @@ const ContentWrapper = styled.div`
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
     padding: 40px 20px;
-    row-gap: 32px;
+    row-gap: 0;
   }
 `;
 
@@ -93,24 +93,28 @@ const StatItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   width: 100%;
   box-sizing: border-box;
 
   @media (max-width: 640px) {
     position: relative;
+    padding-bottom: ${({ $isLast }) => ($isLast ? '0' : '32px')};
+    margin-bottom: ${({ $isLast }) => ($isLast ? '0' : '32px')};
     
-    &:not(:last-child)::after {
-      content: '';
-      position: absolute;
-      bottom: -16px; /* Exactamente a la mitad del row-gap de 32px */
-      left: 50%;
-      transform: translateX(-50%);
-      width: 40px;
-      height: 1px;
-      background: #B9975B;
-      opacity: 0.4;
-    }
+    ${({ $isLast }) => !$isLast && `
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 1px;
+        background: #B9975B;
+        opacity: 0.5;
+      }
+    `}
   }
 `;
 
@@ -184,7 +188,7 @@ function FincaStats() {
       <ContentWrapper>
         <Fade cascade damping={0.15} direction="up" triggerOnce duration={800} style={{ display: 'contents' }}>
           {stats.map((stat, index) => (
-            <StatItem key={index}>
+            <StatItem key={index} $isLast={index === stats.length - 1}>
               <IconWrapper>{stat.icon}</IconWrapper>
               <StatTitle>{stat.title}</StatTitle>
               <StatValue>{stat.value}</StatValue>

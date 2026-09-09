@@ -10,6 +10,7 @@ const Section = styled.section`
   background: #EDE6D8;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 `;
 
 const ContentWrapper = styled.div`

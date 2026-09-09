@@ -150,6 +150,7 @@ const StoryImg = styled.img`
 
   @media (max-width: 640px) {
     height: 300px;
+    border-radius: 8px;
   }
 `;
 

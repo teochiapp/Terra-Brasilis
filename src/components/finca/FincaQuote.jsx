@@ -10,7 +10,11 @@ const QuoteSection = styled.section`
   background: #DFD8C7;
   display: flex;
   justify-content: center;
-  padding: 0px 20px 80px; /* Espacio inferior para separarlo del footer u otra sección */
+  padding: 0px 20px 80px;
+
+  @media (max-width: 640px) {
+    padding: 0px 20px 40px;
+  }
 `;
 
 const QuoteContainer = styled.div`

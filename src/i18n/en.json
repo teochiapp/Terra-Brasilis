@@ -4,7 +4,7 @@
     "historia": "Our Story",
     "finca": "The Farm",
     "profesionales": "For Professionals",
-    "contacto": "Contact Us"
+    "contacto": "Contact"
   },
   "breadcrumb": {
     "historia": "Our Story",
@@ -223,7 +223,12 @@
       "message": "Message *",
       "placeholder": "Tell us how we can help you...",
       "submit": "Message *",
-      "required": "* Required fields"
+      "required": "* Required fields",
+      "modal_success_title": "Message Sent!",
+      "modal_success_desc": "Thank you very much for contacting Terra Brasilis. We have received your message and will respond shortly.",
+      "modal_error_title": "Sending Error",
+      "modal_error_desc": "There was a problem sending your message. Please try again.",
+      "modal_close": "Accept"
     }
   },
   "footer": {
@@ -257,5 +262,21 @@
       "title": "Contact — Terra Brasilis",
       "description": "Get in touch with the Terra Brasilis team."
     }
+  },
+  "cookie_banner": {
+    "title": "We value your privacy",
+    "description": "We use our own and third-party cookies to ensure the website works properly, analyze our traffic, and personalize your experience. You can accept all cookies, reject them, or configure your preferences.",
+    "btn_config": "Configure",
+    "btn_reject": "Reject",
+    "btn_accept": "Accept all",
+    "modal_title": "Cookie Settings",
+    "modal_desc": "When you visit a website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device.",
+    "necessary_title": "Strictly necessary",
+    "necessary_desc": "These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms.",
+    "analytics_title": "Analytics Cookies",
+    "analytics_desc": "These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular.",
+    "marketing_title": "Marketing Cookies",
+    "marketing_desc": "These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites.",
+    "btn_save": "Save Preferences"
   }
 }

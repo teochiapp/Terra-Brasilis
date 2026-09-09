@@ -4,7 +4,7 @@
     "historia": "Nossa História",
     "finca": "A Fazenda",
     "profesionales": "Para Profissionais",
-    "contacto": "Nosso Contato"
+    "contacto": "Contato"
   },
   "breadcrumb": {
     "historia": "Nossa História",
@@ -14,10 +14,10 @@
   },
   "inicio": {
     "hero": {
-      "title": "DO CORAÇÃO DO BRASIL <br /> PARA AS MELHORES XÍCARAS DO MUNDO",
+      "title": "DO CORAÇÃO DO BRASIL <br /> ÀS MELHORES XÍCARAS DO MUNDO",
       "subtitle": "Cultivamos café desde a origem, <br /> respeitando a terra, o tempo e as pessoas",
-      "cta_discover": "DESCUBRA TERRA BRASILIS",
-      "cta_farm": "VISITE A FAZENDA"
+      "cta_discover": "DESCOBRIR TERRA BRASILIS",
+      "cta_farm": "CONHECER A FAZENDA"
     },
     "preview_section": {
       "title": "Saiba mais sobre nós",
@@ -25,16 +25,16 @@
     },
     "nuestros_cafes": {
       "title": "NOSSOS CAFÉS",
-      "description": "Coleções selecionadas à mão, processadas com técnicas de ponta para paladares exigentes.",
+      "description": "Coleções selecionadas à mão, processadas com técnicas de vanguarda para paladares exigentes.",
       "card1": {
         "title": "DA ORIGEM",
         "description": "Cada café começa em nossa terra, onde o cuidado e a dedicação acompanham cada etapa.",
-        "cta": "DESCUBRA NOSSOS CAFÉS"
+        "cta": "CONHEÇA NOSSOS CAFÉS"
       },
       "card2": {
         "title": "ARARA",
-        "description": "Equilíbrio e caráter. Notas de chocolate, caramelo e nozes com um corpo sedoso e doçura persistente.",
-        "cta": "DESCUBRA NOSSOS CAFÉS"
+        "description": "Equilíbrio e caráter. Notas de chocolate, caramelo e frutas secas com corpo sedoso e doçura persistente.",
+        "cta": "CONHEÇA NOSSOS CAFÉS"
       }
     },
     "historia_section": {
@@ -57,7 +57,7 @@
       "title": "PARA PROFISSIONAIS",
       "cta": "CONTATAR TERRA BRASILIS"
     },
-    "closing_tagline": "\"A origem muda tudo\"",
+    "closing_tagline": "\"A Origem Muda Tudo\"",
     "historia_preview": {
       "title": "Nossa História",
       "description": "Décadas de trabalho e paixão pela terra.",
@@ -80,35 +80,35 @@
       "description": "A história da Terra Brasilis e as pessoas por trás dela."
     },
     "intro": {
-      "subtitle": "THE BIRTH OF A PASSION",
-      "title": "Terra Brasilis Café is the result of a story that began long before our first harvest. It was born from a deep respect for the land, for the process, and for the people who dedicate their lives to growing exceptional coffee.",
-      "p1": "We were born from a deep connection with the land, from generations who understood that the best coffee is not just grown — it is nurtured with patience, knowledge, and love.",
-      "p2": "Today, we remain faithful to that vision with the determination to offer exceptional coffees that carry the soul of their origin in every cup.",
-      "cta": "VISIT THE FARM"
+      "subtitle": "O NASCIMENTO DE UMA PAIXÃO",
+      "title": "Terra Brasilis Café é o resultado de uma história que começou muito antes de nossa primeira colheita. Nasceu de um profundo respeito pela terra, pelo processo e pelas pessoas que dedicam suas vidas ao cultivo de café excepcional.",
+      "p1": "Nascemos da conexão profunda com a terra, de gerações que entenderam que o melhor café não é apenas cultivado — é nutrido com paciência, conhecimento e amor.",
+      "p2": "Hoje, seguimos fiéis a essa visão com a determinação de oferecer cafés excepcionais que transmitam a essência do Brasil para o mundo. Nos recusamos a participar do mercado de massa.",
+      "cta": "CONHECER A FAZENDA"
     },
     "stats": {
-      "tradition": "YEARS OF TRADITION",
-      "varieties": "EXCLUSIVE VARIETIES",
-      "origin": "ORIGIN COFFEE",
-      "mission": "CLEAR MISSION"
+      "tradition": "ANOS DE TRADIÇÃO",
+      "varieties": "VARIEDADES EXCLUSIVAS",
+      "origin": "CAFÉ DE ORIGEM",
+      "mission": "MISSÃO CLARA"
     },
     "values": {
-      "title": "OUR VALUES",
+      "title": "NOSSOS VALORES",
       "auth": {
-        "title": "Authenticity",
-        "desc": "We cultivate the origin and our essence. Every cup reflects who we are and where we come from."
+        "title": "Autenticidade",
+        "desc": "Cultivamos a origem e nossa essência. Cada xícara reflete quem somos e de onde viemos."
       },
       "respect": {
-        "title": "Respect",
-        "desc": "We respect the land, the people, and the process. They are the foundation of everything we do."
+        "title": "Respeito",
+        "desc": "Respeitamos a terra, as pessoas e o processo. São a base de tudo o que fazemos."
       },
       "excellence": {
-        "title": "Excellence",
-        "desc": "We pursue excellence in every detail, from the seed to the final cup."
+        "title": "Excelência",
+        "desc": "Buscamos a excelência em cada detalhe, da semente à xícara final."
       },
       "transparency": {
-        "title": "Transparency",
-        "desc": "We believe in honest and lasting relationships with all our partners."
+        "title": "Transparência",
+        "desc": "Acreditamos em relações honestas e duradouras com todos os nossos parceiros."
       }
     }
   },
@@ -118,10 +118,10 @@
       "description": "Um espaço natural único com características excepcionais."
     },
     "intro": {
-      "subtitle": "AMONG MOUNTAINS, LAND, AND COFFEE",
-      "title": "We grow coffee in the mountains of Brazil, where nature and human work come together to create something exceptional.",
-      "p1": "Our farm is located in a privileged region for its climate, altitude, and biodiversity — ideal conditions for cultivating specialty coffee.",
-      "p2": "Here, the rhythms of nature and human work coexist in balance, giving life to coffees that carry the identity of their terroir."
+      "subtitle": "Entre montanhas, terra e café",
+      "title": "Cultivamos café nas montanhas do Brasil, onde a natureza e o trabalho humano se unem para criar algo excepcional.",
+      "p1": "Nossa fazenda está localizada em uma região privilegiada por seu clima, altitude e biodiversidade — condições ideais para o cultivo de café especial.",
+      "p2": "Aqui, os ritmos da natureza e do trabalho humano convivem em equilíbrio, dando origem a cafés que carregam a identidade de seu terroir."
     },
     "stats": {
       "altitude": {
@@ -129,19 +129,19 @@
         "value": "900-1,300 MTS"
       },
       "climate": {
-        "title": "CLIMATE",
-        "value": "Mountain tropical"
+        "title": "CLIMA",
+        "value": "Tropical de montanha"
       },
       "soil": {
-        "title": "SOIL",
-        "value": "Rich in minerals"
+        "title": "SOLO",
+        "value": "Rico em minerais"
       },
       "shade": {
-        "title": "NATURAL SHADE",
-        "value": "Protection and biodiversity"
+        "title": "SOMBRA NATURAL",
+        "value": "Proteção e biodiversidade"
       }
     },
-    "quote": "“Nature is in no hurry, and yet, everything is accomplished.”"
+    "quote": "\"A natureza não tem pressa, e por isso, tudo se cumpre.\""
   },
   "profesionales": {
     "hero": {
@@ -150,20 +150,20 @@
     },
     "about": {
       "title": "Conectamos nosso café com quem compartilha nossa visão",
-      "description": "Acreditamos em relacionamentos construídos a longo prazo. Trabalhamos com profissionais que compartilham nossa paixão por qualidade, origem e sustentabilidade.",
+      "description": "Acreditamos em relações construídas a longo prazo. Trabalhamos com profissionais que compartilham nossa paixão por qualidade, origem e sustentabilidade.",
       "targets": [
         "Torrefadores",
         "Distribuidores",
         "Cafeterias e projetos gastronômicos",
-        "Empresas que buscam café com origem e personalidade"
+        "Empresas que buscam um café com origem e personalidade"
       ],
-      "cta": "FALE CONOSCO"
+      "cta": "ENTRE EM CONTATO"
     },
     "features": [
-      "RASTREAMENTO COMPLETO",
+      "RASTREABILIDADE COMPLETA",
       "VARIEDADES EXCLUSIVAS",
       "PERFIS SENSORIAIS ÚNICOS",
-      "FORNECIMENTO RESPONSÁVEL E CONSISTENTE",
+      "FORNECIMENTO RESPONSÁVEL E CONSTANTE",
       "ATENDIMENTO PERSONALIZADO"
     ],
     "how_we_work": {
@@ -187,7 +187,7 @@
         {
           "number": "4",
           "title": "CRESCEMOS JUNTOS",
-          "description": "Construímos relacionamentos duradouros"
+          "description": "Construímos relações a longo prazo"
         }
       ]
     }
@@ -208,7 +208,7 @@
     "form": {
       "category": "Contato",
       "title": "Vamos falar de café.",
-      "description": "Se você deseja saber mais sobre a Terra Brasilis Café, nossos cafés ou explorar uma colaboração, adoraríamos ouvir você.",
+      "description": "Se você quer saber mais sobre Terra Brasilis Café, nossos cafés ou explorar uma colaboração, adoraríamos ouvir de você.",
       "name": "Nome Completo *",
       "company": "Empresa (Opcional)",
       "email": "Email *",
@@ -218,16 +218,21 @@
         "general": "Informações gerais",
         "professionals": "Profissionais / Distribuição",
         "coffees": "Nossos cafés",
-        "other": "Outro"
+        "other": "Outros"
       },
       "message": "Mensagem *",
       "placeholder": "Conte-nos como podemos ajudar...",
       "submit": "Enviar mensagem *",
-      "required": "* Campos obrigatórios"
+      "required": "* Campos obrigatórios",
+      "modal_success_title": "Mensagem Enviada!",
+      "modal_success_desc": "Muito obrigado por entrar em contato com a Terra Brasilis. Recebemos sua mensagem e responderemos em breve.",
+      "modal_error_title": "Erro ao Enviar",
+      "modal_error_desc": "Ocorreu um problema ao enviar sua mensagem. Por favor, tente novamente.",
+      "modal_close": "Aceitar"
     }
   },
   "footer": {
-    "tagline": "Dedicados ao cultivo e torrefação das variedades mais exclusivas de café especial em nossa fazenda familiar em Minas Gerais, Brasil.",
+    "tagline": "Dedicados a cultivar e torrar as variedades mais exclusivas de café especial em nossa fazenda familiar em Minas Gerais, Brasil.",
     "motto": "Cultivado com paixão, torrado com precisão.",
     "copyright": "© 2026 Terra Brasilis Specialty Coffee. Todos os direitos reservados.",
     "nav_title": "Navegação",
@@ -257,5 +262,21 @@
       "title": "Contato — Terra Brasilis",
       "description": "Entre em contato com a equipe da Terra Brasilis."
     }
+  },
+  "cookie_banner": {
+    "title": "Valorizamos a sua privacidade",
+    "description": "Usamos cookies próprios e de terceiros para garantir que o site funcione corretamente, analisar nosso tráfego e personalizar sua experiência. Você pode aceitar todos os cookies, rejeitá-los ou configurar suas preferências.",
+    "btn_config": "Configurar",
+    "btn_reject": "Rejeitar",
+    "btn_accept": "Aceitar todos",
+    "modal_title": "Configurações de Cookies",
+    "modal_desc": "Quando você visita qualquer site, ele pode armazenar ou recuperar informações no seu navegador, principalmente na forma de cookies. Essas informações podem ser sobre você, suas preferências ou seu dispositivo.",
+    "necessary_title": "Estritamente necessários",
+    "necessary_desc": "Estes cookies são necessários para que o website funcione e não podem ser desligados nos nossos sistemas. Normalmente, eles só são configurados em resposta a ações levadas a cabo por si e que correspondem a uma solicitação de serviços, tais como definir as suas preferências de privacidade, iniciar sessão ou preencher formulários.",
+    "analytics_title": "Cookies de Análise",
+    "analytics_desc": "Estes cookies permitem-nos contar visitas e fontes de tráfego, para que possamos medir e melhorar o desempenho do nosso website. Eles ajudam-nos a saber quais são as páginas mais e menos populares.",
+    "marketing_title": "Cookies de Marketing",
+    "marketing_desc": "Estes cookies podem ser estabelecidos através do nosso site pelos nossos parceiros de publicidade. Podem ser usados por essas empresas para construir um perfil sobre os seus interesses e mostrar-lhe anúncios relevantes em outros websites.",
+    "btn_save": "Salvar Preferências"
   }
 }

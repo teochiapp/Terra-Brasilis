@@ -112,7 +112,7 @@ const ValueItem = styled.div`
     flex: 0 0 100%;
     border-right: none !important;
     border-bottom: 1px solid #183029;
-    padding: 32px 20px;
+    padding: 26px 20px;
 
     &:last-child {
       border-bottom: none;
@@ -128,6 +128,8 @@ const IconWrapper = styled.div`
   align-items: center;
   width: 48px;
   height: 48px;
+  border: 1px solid #B9975B;
+  border-radius: 24px;
 `;
 
 const ValueIcon = styled.img`
@@ -211,9 +213,9 @@ function HistoryValues() {
           {valuesData.map((val, index) => (
             <ValueItem key={index}>
               <IconWrapper>
-                <ValueIcon 
-                  src={`${process.env.PUBLIC_URL}/values/${val.icon}`} 
-                  alt={val.title} 
+                <ValueIcon
+                  src={`${process.env.PUBLIC_URL}/values/${val.icon}`}
+                  alt={val.title}
                   loading="lazy"
                 />
               </IconWrapper>

@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import MainLayout from './components/layout/MainLayout';
 import ScrollToTop from './components/common/ScrollToTop';
+import CookieBanner from './components/common/CookieBanner';
 import Inicio from './pages/inicio/Inicio';
 import Historia from './pages/historia/Historia';
 import Finca from './pages/finca/Finca';
@@ -12,6 +13,7 @@ function App() {
   return (
     <MainLayout>
       <ScrollToTop />
+      <CookieBanner />
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/historia" element={<Historia />} />

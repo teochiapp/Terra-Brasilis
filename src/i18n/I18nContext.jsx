@@ -2,13 +2,12 @@ import { createContext, useContext, useState, useCallback } from 'react';
 
 import es from './es.json';
 import en from './en.json';
-import it from './it.json';
 import pt from './pt.json';
 import ger from './ger.json';
 
 // ─── Constantes ──────────────────────────────────────────────────────────────
 
-const TRANSLATIONS = { es, en, it, pt, ger };
+const TRANSLATIONS = { es, en, pt, ger };
 
 export const SUPPORTED_LANGUAGES = [
   { code: 'es', label: 'ES', name: 'Español' },
@@ -39,7 +38,15 @@ const I18nContext = createContext(null);
 // ─── Provider ────────────────────────────────────────────────────────────────
 
 export function I18nProvider({ children }) {
-  const [language, setLanguage] = useState(DEFAULT_LANGUAGE);
+  const [language, setLanguage] = useState(() => {
+    const saved = localStorage.getItem('terra-brasilis-lang');
+    if (saved && SUPPORTED_LANGUAGES.some((lang) => lang.code === saved)) {
+      document.documentElement.lang = saved;
+      return saved;
+    }
+    document.documentElement.lang = DEFAULT_LANGUAGE;
+    return DEFAULT_LANGUAGE;
+  });
 
   const t = useCallback(
     (key) => resolvePath(TRANSLATIONS[language], key),
@@ -49,6 +56,7 @@ export function I18nProvider({ children }) {
   const changeLanguage = useCallback((code) => {
     if (SUPPORTED_LANGUAGES.some((lang) => lang.code === code)) {
       setLanguage(code);
+      localStorage.setItem('terra-brasilis-lang', code);
       document.documentElement.lang = code;
     }
   }, []);

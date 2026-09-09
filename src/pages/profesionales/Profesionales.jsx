@@ -1,3 +1,4 @@
+import { Fade } from 'react-awesome-reveal';
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
@@ -373,6 +374,7 @@ const StepDescription = styled.p`
   margin: 0;
 `;
 
+
 // ─── Componente Principal ──────────────────────────────────────────────────────
 
 function Profesionales() {
@@ -435,73 +437,83 @@ function Profesionales() {
       {/* ── Seccion 1: About / Intro ── */}
       <AboutSection id="profesionales-about">
         <AboutContainer>
-          <AboutLeft>
-            <MainTitle>
-              {t('profesionales.about.title') ||
-                'We connect our coffee with those who share our vision'}
-            </MainTitle>
-            <AboutDescription>
-              {t('profesionales.about.description') ||
-                'We believe in relationships built for the long term. We work with professionals who share our passion for quality, origin, and sustainability.'}
-            </AboutDescription>
-            <Checklist>
-              {Array.isArray(targets) &&
-                targets.map((item, idx) => (
-                  <CheckItem key={idx}>
-                    <CheckIconBox>
-                      <CheckIcon />
-                    </CheckIconBox>
-                    <span>{item}</span>
-                  </CheckItem>
-                ))}
-            </Checklist>
-            <CtaButton to="/contacto" onClick={() => window.scrollTo(0, 0)}>
-              {t('profesionales.about.cta') || 'CONTACT US'}
-            </CtaButton>
-          </AboutLeft>
+          <Fade direction="left" triggerOnce duration={1000} style={{ flex: 1, display: 'flex', maxWidth: '530px', width: '100%' }}>
+            <AboutLeft style={{ maxWidth: '100%' }}>
+              <MainTitle>
+                {t('profesionales.about.title') ||
+                  'We connect our coffee with those who share our vision'}
+              </MainTitle>
+              <AboutDescription>
+                {t('profesionales.about.description') ||
+                  'We believe in relationships built for the long term. We work with professionals who share our passion for quality, origin, and sustainability.'}
+              </AboutDescription>
+              <Checklist>
+                {Array.isArray(targets) &&
+                  targets.map((item, idx) => (
+                    <CheckItem key={idx}>
+                      <CheckIconBox>
+                        <CheckIcon />
+                      </CheckIconBox>
+                      <span>{item}</span>
+                    </CheckItem>
+                  ))}
+              </Checklist>
+              <CtaButton to="/contacto" onClick={() => window.scrollTo(0, 0)}>
+                {t('profesionales.about.cta') || 'CONTACT US'}
+              </CtaButton>
+            </AboutLeft>
+          </Fade>
 
-          <AboutRight>
-            <NurseryImage
-              src={process.env.PUBLIC_URL + '/globalImgs/professionals-section.webp'}
-              alt="Plantación y cultivo de café Terra Brasilis"
-              width="635"
-              height="533"
-            />
-          </AboutRight>
+          <Fade direction="right" triggerOnce duration={1000} style={{ flex: 1, display: 'flex', width: '100%' }}>
+            <AboutRight>
+              <NurseryImage
+                src={process.env.PUBLIC_URL + '/globalImgs/professionals-section.webp'}
+                alt="Plantación y cultivo de café Terra Brasilis"
+                width="635"
+                height="533"
+              />
+            </AboutRight>
+          </Fade>
         </AboutContainer>
       </AboutSection>
 
       {/* ── Seccion 2: Features Strip ── */}
       <FeaturesStrip id="profesionales-features">
-        {Array.isArray(features) &&
-          features.map((feature, idx) => (
-            <React.Fragment key={idx}>
-              <FeatureItem>{feature}</FeatureItem>
-              {idx < features.length - 1 && <DiamondSeparator />}
-            </React.Fragment>
-          ))}
+        <Fade cascade damping={0.1} direction="up" triggerOnce style={{ display: 'contents' }}>
+          {Array.isArray(features) &&
+            features.map((feature, idx) => (
+              <React.Fragment key={idx}>
+                <FeatureItem>{feature}</FeatureItem>
+                {idx < features.length - 1 && <DiamondSeparator />}
+              </React.Fragment>
+            ))}
+        </Fade>
       </FeaturesStrip>
 
       {/* ── Seccion 3: How We Work (Como Trabajamos) ── */}
       <HowWeWorkSection id="profesionales-how-we-work">
         <HowWeWorkContainer>
-          <SectionTitleHeader>
-            <SectionHeaderTitle>
-              {t('profesionales.how_we_work.title') || 'HOW WE WORK'}
-            </SectionHeaderTitle>
-            <SectionDiamondDivider />
-          </SectionTitleHeader>
+          <Fade direction="up" triggerOnce>
+            <SectionTitleHeader>
+              <SectionHeaderTitle>
+                {t('profesionales.how_we_work.title') || 'HOW WE WORK'}
+              </SectionHeaderTitle>
+              <SectionDiamondDivider />
+            </SectionTitleHeader>
+          </Fade>
 
           <StepsRow>
-            {Array.isArray(steps) &&
-              steps.map((step, idx) => (
-                <StepCard key={idx}>
-                  <StepNumberCircle>{step.number || idx + 1}</StepNumberCircle>
-                  <StepTitle>{step.title}</StepTitle>
-                  <StepUnderline />
-                  <StepDescription>{step.description}</StepDescription>
-                </StepCard>
-              ))}
+            <Fade cascade damping={0.15} direction="up" triggerOnce duration={800} style={{ display: 'contents' }}>
+              {Array.isArray(steps) &&
+                steps.map((step, idx) => (
+                  <StepCard key={idx}>
+                    <StepNumberCircle>{step.number || idx + 1}</StepNumberCircle>
+                    <StepTitle>{step.title}</StepTitle>
+                    <StepUnderline />
+                    <StepDescription>{step.description}</StepDescription>
+                  </StepCard>
+                ))}
+            </Fade>
           </StepsRow>
         </HowWeWorkContainer>
       </HowWeWorkSection>

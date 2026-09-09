@@ -1,27 +1,9 @@
 import { useEffect } from 'react';
-import styled from 'styled-components';
-
 import { useTranslation } from '../../i18n/I18nContext';
-import Container from '../../components/common/Container';
-
-// ─── Estilos ─────────────────────────────────────────────────────────────────
-
-const ContentSection = styled.section`
-  padding: var(--spacing-4xl) 0;
-  background-color: var(--color-background);
-`;
-
-const PlaceholderBlock = styled.div`
-  height: 200px;
-  background-color: var(--color-border);
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-light);
-  font-size: var(--font-size-sm);
-  font-style: italic;
-`;
+import FincaIntro from '../../components/finca/FincaIntro';
+import FincaStats from '../../components/finca/FincaStats';
+import FincaGallery from '../../components/finca/FincaGallery';
+import FincaQuote from '../../components/finca/FincaQuote';
 
 // ─── Componente ───────────────────────────────────────────────────────────────
 
@@ -35,14 +17,12 @@ function Finca() {
   }, [t]);
 
   return (
-    <ContentSection id="finca-content">
-      <Container>
-        {/* Placeholder — contenido visual de Finca se implementará en etapa 2 */}
-        <PlaceholderBlock>
-          Secciones de La Finca — pendiente implementación visual (Etapa 2)
-        </PlaceholderBlock>
-      </Container>
-    </ContentSection>
+    <>
+      <FincaIntro />
+      <FincaStats />
+      <FincaGallery />
+      <FincaQuote />
+    </>
   );
 }
 

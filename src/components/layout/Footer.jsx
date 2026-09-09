@@ -92,7 +92,7 @@ const FooterMain = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 48px;
 
   @media (max-width: 1024px) {
@@ -109,6 +109,7 @@ const FooterBrand = styled.div`
   width: 340px;
   max-width: 100%;
   flex-shrink: 0;
+  height: 100%;
 `;
 
 const FooterLogo = styled(Link)`
@@ -152,14 +153,16 @@ const CopyrightText = styled.p`
   font-size: 13px;
   line-height: 16px;
   color: #ffffff;
-  opacity: 0.45;
-  margin: 16px 0 0 0;
+  opacity: 0.5;
+  margin: auto 0 0 0;
+  padding-top: 48px;
+  white-space: nowrap;
 `;
 
 const FooterLinksContainer = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: stretch;
   gap: clamp(32px, 5vw, 64px);
   flex-wrap: wrap;
 
@@ -176,6 +179,7 @@ const FooterCol = styled.div`
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  height: 100%;
 `;
 
 const FooterColTitle = styled.h4`
@@ -200,7 +204,7 @@ const FooterLink = styled(Link)`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 17px;
   letter-spacing: 0;
   color: #ffffff;
   opacity: 0.8;
@@ -218,7 +222,7 @@ const FooterExternalLink = styled.a`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 17px;
   letter-spacing: 0;
   color: #ffffff;
   opacity: 0.8;
@@ -236,7 +240,7 @@ const FooterText = styled.span`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 17px;
   letter-spacing: 0;
   color: #ffffff;
   opacity: 0.8;
@@ -247,7 +251,7 @@ const FooterAddress = styled.address`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 140%;
+  line-height: 17px;
   letter-spacing: 0;
   color: #ffffff;
   opacity: 0.8;
@@ -290,7 +294,8 @@ const MottoText = styled.p`
   line-height: 16px;
   color: #b9975b;
   opacity: 0.8;
-  margin: 0;
+  margin: auto 0 0 0;
+  padding-top: 48px;
 `;
 
 // ─── Componente ───────────────────────────────────────────────────────────────
@@ -316,7 +321,7 @@ function Footer() {
           <FooterBrand>
             <FooterLogo to="/" aria-label="Terra Brasilis - Inicio" onClick={() => window.scrollTo(0, 0)}>
               <FooterLogoImg
-                src={process.env.PUBLIC_URL + '/logo.png'}
+                src={process.env.PUBLIC_URL + '/logo-footer.png'}
                 alt="Terra Brasilis"
                 width="217"
                 height="123"

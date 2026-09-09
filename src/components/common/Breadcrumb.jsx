@@ -13,9 +13,9 @@ const BREADCRUMB_CONFIG = {
   '/historia': {
     pageKey: 'historia',
     image: `${process.env.PUBLIC_URL}/breadcrumbs/story.webp`,
-    // Ajustado hacia el tercio superior para encuadrar rostro y contexto natural
-    bgPosition: 'center 26%',
-    defaultTitle: 'Historia',
+    bgPosition: 'center 55%',
+    bgSize: '100%',
+    defaultTitle: 'Our Story',
   },
   '/finca': {
     pageKey: 'finca',
@@ -48,7 +48,7 @@ const BannerWrapper = styled.section`
   background: 
     linear-gradient(0deg, rgba(24, 48, 41, 0.68), rgba(24, 48, 41, 0.68)),
     url(${({ $bgImage }) => $bgImage});
-  background-size: cover;
+  background-size: ${({ $bgSize }) => $bgSize || 'cover'};
   background-position: ${({ $bgPosition }) => $bgPosition || 'center center'};
   background-repeat: no-repeat;
 
@@ -126,6 +126,7 @@ function Breadcrumb({ title: explicitTitle, image: explicitImage, bgPosition: ex
 
   const bgImage = explicitImage || config?.image;
   const bgPosition = explicitPosition || config?.bgPosition || 'center center';
+  const bgSize = config?.bgSize || 'cover';
 
   // Obtener título traducido: primero 'breadcrumb.<key>', luego 'nav.<key>', luego defaultTitle
   const resolvedTitle =
@@ -137,6 +138,7 @@ function Breadcrumb({ title: explicitTitle, image: explicitImage, bgPosition: ex
       id="page-breadcrumb-banner"
       $bgImage={bgImage}
       $bgPosition={bgPosition}
+      $bgSize={bgSize}
       aria-label={resolvedTitle}
     >
       <BannerTitle>{resolvedTitle}</BannerTitle>

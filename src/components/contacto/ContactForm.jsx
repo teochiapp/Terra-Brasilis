@@ -1,3 +1,4 @@
+import { Fade } from 'react-awesome-reveal';
 import { useState } from 'react';
 import styled from 'styled-components';
 import { ChevronDown } from 'lucide-react';
@@ -303,6 +304,7 @@ const RequiredNotice = styled.span`
   opacity: 0.6;
 `;
 
+
 // ─── Componente ───────────────────────────────────────────────────────────────
 
 function ContactForm() {
@@ -329,149 +331,153 @@ function ContactForm() {
 
   return (
     <FormColWrapper>
-      {/* Encabezado del Formulario */}
-      <FormHeader>
-        <LabelRow>
-          <GoldDividerLine />
-          <CategoryLabel>{t('contacto.form.category')}</CategoryLabel>
-        </LabelRow>
-        <HeaderTitle>{t('contacto.form.title')}</HeaderTitle>
-        <HeaderDescription>{t('contacto.form.description')}</HeaderDescription>
-      </FormHeader>
+      <Fade direction="up" triggerOnce duration={800} style={{ width: '100%' }}>
+        {/* Encabezado del Formulario */}
+        <FormHeader>
+          <LabelRow>
+            <GoldDividerLine />
+            <CategoryLabel>{t('contacto.form.category')}</CategoryLabel>
+          </LabelRow>
+          <HeaderTitle>{t('contacto.form.title')}</HeaderTitle>
+          <HeaderDescription>{t('contacto.form.description')}</HeaderDescription>
+        </FormHeader>
+      </Fade>
 
-      {/* Formulario */}
-      <FormBody onSubmit={handleSubmit}>
-        {/* Fila 1: Nombre + Empresa */}
-        <FormRow>
-          <FieldGroup>
-            <FieldLabel htmlFor="fullName">{t('contacto.form.name')}</FieldLabel>
-            <UnderlineInput
-              id="fullName"
-              name="fullName"
-              type="text"
-              value={formData.fullName}
-              onChange={handleChange}
-              required
-            />
-          </FieldGroup>
-
-          <FieldGroup>
-            <FieldLabel htmlFor="company">{t('contacto.form.company')}</FieldLabel>
-            <UnderlineInput
-              id="company"
-              name="company"
-              type="text"
-              value={formData.company}
-              onChange={handleChange}
-            />
-          </FieldGroup>
-        </FormRow>
-
-        {/* Fila 2: Email + País */}
-        <FormRow>
-          <FieldGroup>
-            <FieldLabel htmlFor="email">{t('contacto.form.email')}</FieldLabel>
-            <UnderlineInput
-              id="email"
-              name="email"
-              type="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </FieldGroup>
-
-          <FieldGroup>
-            <FieldLabel htmlFor="country">{t('contacto.form.country')}</FieldLabel>
-            <SelectWrapper>
-              <UnderlineSelect
-                id="country"
-                name="country"
-                value={formData.country}
+      <Fade direction="up" triggerOnce duration={800} style={{ width: '100%' }}>
+        {/* Formulario */}
+        <FormBody onSubmit={handleSubmit}>
+          {/* Fila 1: Nombre + Empresa */}
+          <FormRow>
+            <FieldGroup>
+              <FieldLabel htmlFor="fullName">{t('contacto.form.name')}</FieldLabel>
+              <UnderlineInput
+                id="fullName"
+                name="fullName"
+                type="text"
+                value={formData.fullName}
                 onChange={handleChange}
                 required
-              >
-                <option value="Brasil">Brasil</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Uruguay">Uruguay</option>
-                <option value="Chile">Chile</option>
-                <option value="Colombia">Colombia</option>
-                <option value="España">España</option>
-                <option value="Estados Unidos">Estados Unidos</option>
-                <option value="Otro">Otro</option>
-              </UnderlineSelect>
-              <ChevronDown size={14} />
-            </SelectWrapper>
+              />
+            </FieldGroup>
+
+            <FieldGroup>
+              <FieldLabel htmlFor="company">{t('contacto.form.company')}</FieldLabel>
+              <UnderlineInput
+                id="company"
+                name="company"
+                type="text"
+                value={formData.company}
+                onChange={handleChange}
+              />
+            </FieldGroup>
+          </FormRow>
+
+          {/* Fila 2: Email + País */}
+          <FormRow>
+            <FieldGroup>
+              <FieldLabel htmlFor="email">{t('contacto.form.email')}</FieldLabel>
+              <UnderlineInput
+                id="email"
+                name="email"
+                type="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </FieldGroup>
+
+            <FieldGroup>
+              <FieldLabel htmlFor="country">{t('contacto.form.country')}</FieldLabel>
+              <SelectWrapper>
+                <UnderlineSelect
+                  id="country"
+                  name="country"
+                  value={formData.country}
+                  onChange={handleChange}
+                  required
+                >
+                  <option value="Brasil">Brasil</option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Uruguay">Uruguay</option>
+                  <option value="Chile">Chile</option>
+                  <option value="Colombia">Colombia</option>
+                  <option value="España">España</option>
+                  <option value="Estados Unidos">Estados Unidos</option>
+                  <option value="Otro">Otro</option>
+                </UnderlineSelect>
+                <ChevronDown size={14} />
+              </SelectWrapper>
+            </FieldGroup>
+          </FormRow>
+
+          {/* Opciones de Radio */}
+          <RadioSection>
+            <FieldLabel>{t('contacto.form.help_label')}</FieldLabel>
+            <RadioOptionsGroup>
+              <RadioOptionLabel>
+                <CustomRadio
+                  name="helpOption"
+                  value="general"
+                  checked={selectedOption === 'general'}
+                  onChange={() => setSelectedOption('general')}
+                />
+                {t('contacto.form.help_options.general')}
+              </RadioOptionLabel>
+
+              <RadioOptionLabel>
+                <CustomRadio
+                  name="helpOption"
+                  value="professionals"
+                  checked={selectedOption === 'professionals'}
+                  onChange={() => setSelectedOption('professionals')}
+                />
+                {t('contacto.form.help_options.professionals')}
+              </RadioOptionLabel>
+
+              <RadioOptionLabel>
+                <CustomRadio
+                  name="helpOption"
+                  value="coffees"
+                  checked={selectedOption === 'coffees'}
+                  onChange={() => setSelectedOption('coffees')}
+                />
+                {t('contacto.form.help_options.coffees')}
+              </RadioOptionLabel>
+
+              <RadioOptionLabel>
+                <CustomRadio
+                  name="helpOption"
+                  value="other"
+                  checked={selectedOption === 'other'}
+                  onChange={() => setSelectedOption('other')}
+                />
+                {t('contacto.form.help_options.other')}
+              </RadioOptionLabel>
+            </RadioOptionsGroup>
+          </RadioSection>
+
+          {/* Mensaje */}
+          <FieldGroup>
+            <FieldLabel htmlFor="message">{t('contacto.form.message')}</FieldLabel>
+            <MessageTextarea
+              id="message"
+              name="message"
+              placeholder={t('contacto.form.placeholder')}
+              value={formData.message}
+              onChange={handleChange}
+              required
+            />
           </FieldGroup>
-        </FormRow>
 
-        {/* Opciones de Radio */}
-        <RadioSection>
-          <FieldLabel>{t('contacto.form.help_label')}</FieldLabel>
-          <RadioOptionsGroup>
-            <RadioOptionLabel>
-              <CustomRadio
-                name="helpOption"
-                value="general"
-                checked={selectedOption === 'general'}
-                onChange={() => setSelectedOption('general')}
-              />
-              {t('contacto.form.help_options.general')}
-            </RadioOptionLabel>
-
-            <RadioOptionLabel>
-              <CustomRadio
-                name="helpOption"
-                value="professionals"
-                checked={selectedOption === 'professionals'}
-                onChange={() => setSelectedOption('professionals')}
-              />
-              {t('contacto.form.help_options.professionals')}
-            </RadioOptionLabel>
-
-            <RadioOptionLabel>
-              <CustomRadio
-                name="helpOption"
-                value="coffees"
-                checked={selectedOption === 'coffees'}
-                onChange={() => setSelectedOption('coffees')}
-              />
-              {t('contacto.form.help_options.coffees')}
-            </RadioOptionLabel>
-
-            <RadioOptionLabel>
-              <CustomRadio
-                name="helpOption"
-                value="other"
-                checked={selectedOption === 'other'}
-                onChange={() => setSelectedOption('other')}
-              />
-              {t('contacto.form.help_options.other')}
-            </RadioOptionLabel>
-          </RadioOptionsGroup>
-        </RadioSection>
-
-        {/* Mensaje */}
-        <FieldGroup>
-          <FieldLabel htmlFor="message">{t('contacto.form.message')}</FieldLabel>
-          <MessageTextarea
-            id="message"
-            name="message"
-            placeholder={t('contacto.form.placeholder')}
-            value={formData.message}
-            onChange={handleChange}
-            required
-          />
-        </FieldGroup>
-
-        {/* Footer del Formulario */}
-        <FormFooter>
-          <SubmitButton type="submit">
-            {t('contacto.form.submit')}
-          </SubmitButton>
-          <RequiredNotice>{t('contacto.form.required')}</RequiredNotice>
-        </FormFooter>
-      </FormBody>
+          {/* Footer del Formulario */}
+          <FormFooter>
+            <SubmitButton type="submit">
+              {t('contacto.form.submit')}
+            </SubmitButton>
+            <RequiredNotice>{t('contacto.form.required')}</RequiredNotice>
+          </FormFooter>
+        </FormBody>
+      </Fade>
     </FormColWrapper>
   );
 }

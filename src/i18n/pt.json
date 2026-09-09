@@ -14,10 +14,50 @@
   },
   "inicio": {
     "hero": {
-      "title": "Terra Brasilis",
-      "description": "Uma fazenda com história, natureza e tradição.",
-      "cta": "Descobrir mais"
+      "title": "DO CORAÇÃO DO BRASIL <br /> PARA AS MELHORES XÍCARAS DO MUNDO",
+      "subtitle": "Cultivamos café desde a origem, <br /> respeitando a terra, o tempo e as pessoas",
+      "cta_discover": "DESCUBRA TERRA BRASILIS",
+      "cta_farm": "VISITE A FAZENDA"
     },
+    "preview_section": {
+      "title": "Saiba mais sobre nós",
+      "description": "Explore nossa história, nossa fazenda e nossa proposta para profissionais."
+    },
+    "nuestros_cafes": {
+      "title": "NOSSOS CAFÉS",
+      "description": "Coleções selecionadas à mão, processadas com técnicas de ponta para paladares exigentes.",
+      "card1": {
+        "title": "DA ORIGEM",
+        "description": "Cada café começa em nossa terra, onde o cuidado e a dedicação acompanham cada etapa.",
+        "cta": "DESCUBRA NOSSOS CAFÉS"
+      },
+      "card2": {
+        "title": "ARARA",
+        "description": "Equilíbrio e caráter. Notas de chocolate, caramelo e nozes com um corpo sedoso e doçura persistente.",
+        "cta": "DESCUBRA NOSSOS CAFÉS"
+      }
+    },
+    "historia_section": {
+      "title": "MAIS QUE CAFÉ, CULTIVAMOS UMA HISTÓRIA",
+      "description": "O Terra Brasilis Café nasceu do desejo de recuperar a essência do autêntico café brasileiro. Nosso projeto é tradição, inovação e respeito pelo artesanato para criar cafés de origem com personalidade própria.",
+      "quote_line1": "Não buscamos produzir grandes quantidades.",
+      "quote_line2": "Buscamos produzir cafés que permaneçam na memória.",
+      "cta": "CONHEÇA NOSSA HISTÓRIA"
+    },
+    "from_origin_to_bean": "DA ORIGEM AO GRÃO",
+    "process_steps": {
+      "cultivation": "CULTIVO",
+      "flowering": "FLORAÇÃO",
+      "harvesting": "COLHEITA",
+      "selection": "SELEÇÃO",
+      "processing": "PROCESSAMENTO",
+      "export": "EXPORTAÇÃO"
+    },
+    "professionals_banner": {
+      "title": "PARA PROFISSIONAIS",
+      "cta": "CONTATAR TERRA BRASILIS"
+    },
+    "closing_tagline": "\"A origem muda tudo\"",
     "historia_preview": {
       "title": "Nossa História",
       "description": "Décadas de trabalho e paixão pela terra.",
@@ -38,13 +78,70 @@
     "hero": {
       "title": "Nossa História",
       "description": "A história da Terra Brasilis e as pessoas por trás dela."
+    },
+    "intro": {
+      "subtitle": "THE BIRTH OF A PASSION",
+      "title": "Terra Brasilis Café is the result of a story that began long before our first harvest. It was born from a deep respect for the land, for the process, and for the people who dedicate their lives to growing exceptional coffee.",
+      "p1": "We were born from a deep connection with the land, from generations who understood that the best coffee is not just grown — it is nurtured with patience, knowledge, and love.",
+      "p2": "Today, we remain faithful to that vision with the determination to offer exceptional coffees that carry the soul of their origin in every cup.",
+      "cta": "VISIT THE FARM"
+    },
+    "stats": {
+      "tradition": "YEARS OF TRADITION",
+      "varieties": "EXCLUSIVE VARIETIES",
+      "origin": "ORIGIN COFFEE",
+      "mission": "CLEAR MISSION"
+    },
+    "values": {
+      "title": "OUR VALUES",
+      "auth": {
+        "title": "Authenticity",
+        "desc": "We cultivate the origin and our essence. Every cup reflects who we are and where we come from."
+      },
+      "respect": {
+        "title": "Respect",
+        "desc": "We respect the land, the people, and the process. They are the foundation of everything we do."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "desc": "We pursue excellence in every detail, from the seed to the final cup."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "desc": "We believe in honest and lasting relationships with all our partners."
+      }
     }
   },
   "finca": {
     "hero": {
       "title": "A Fazenda",
       "description": "Um espaço natural único com características excepcionais."
-    }
+    },
+    "intro": {
+      "subtitle": "AMONG MOUNTAINS, LAND, AND COFFEE",
+      "title": "We grow coffee in the mountains of Brazil, where nature and human work come together to create something exceptional.",
+      "p1": "Our farm is located in a privileged region for its climate, altitude, and biodiversity — ideal conditions for cultivating specialty coffee.",
+      "p2": "Here, the rhythms of nature and human work coexist in balance, giving life to coffees that carry the identity of their terroir."
+    },
+    "stats": {
+      "altitude": {
+        "title": "ALTITUDE",
+        "value": "900-1,300 MTS"
+      },
+      "climate": {
+        "title": "CLIMATE",
+        "value": "Mountain tropical"
+      },
+      "soil": {
+        "title": "SOIL",
+        "value": "Rich in minerals"
+      },
+      "shade": {
+        "title": "NATURAL SHADE",
+        "value": "Protection and biodiversity"
+      }
+    },
+    "quote": "“Nature is in no hurry, and yet, everything is accomplished.”"
   },
   "profesionales": {
     "hero": {

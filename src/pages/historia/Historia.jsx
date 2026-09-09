@@ -1,27 +1,8 @@
 import { useEffect } from 'react';
-import styled from 'styled-components';
-
 import { useTranslation } from '../../i18n/I18nContext';
-import Container from '../../components/common/Container';
-
-// ─── Estilos ─────────────────────────────────────────────────────────────────
-
-const ContentSection = styled.section`
-  padding: var(--spacing-4xl) 0;
-  background-color: var(--color-background);
-`;
-
-const PlaceholderBlock = styled.div`
-  height: 200px;
-  background-color: var(--color-border);
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-light);
-  font-size: var(--font-size-sm);
-  font-style: italic;
-`;
+import HistoryIntro from '../../components/historia/HistoryIntro';
+import HistoryStats from '../../components/historia/HistoryStats';
+import HistoryValues from '../../components/historia/HistoryValues';
 
 // ─── Componente ───────────────────────────────────────────────────────────────
 
@@ -35,14 +16,11 @@ function Historia() {
   }, [t]);
 
   return (
-    <ContentSection id="historia-content">
-      <Container>
-        {/* Placeholder — contenido visual de Historia se implementará en etapa 2 */}
-        <PlaceholderBlock>
-          Secciones de Historia — pendiente implementación visual (Etapa 2)
-        </PlaceholderBlock>
-      </Container>
-    </ContentSection>
+    <>
+      <HistoryIntro />
+      <HistoryStats />
+      <HistoryValues />
+    </>
   );
 }
 
